@@ -12,4 +12,4 @@ The amount of offset voltage from the datasheet of AD8605 is as follows:
 
 ## Reference
 
-[N/A](https://www.analog.com/media/en/technical-documentation/data-sheets/ad8605_8606_8608.pdf)
+https://www.analog.com/media/en/technical-documentation/data-sheets/ad8605_8606_8608.pdf
