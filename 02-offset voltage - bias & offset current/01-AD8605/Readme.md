@@ -4,11 +4,15 @@ In order to measure the offset voltage, we can simply add this command:
 
 `.meas TRAN Voffset AVG (V(inp)-V(out))`
 
-![01-AD8605 offset voltage](https://user-images.githubusercontent.com/5110232/180290948-300e0877-7bf3-4add-b052-b440137a8d52.png)
+![01-AD8605 offset voltage bias current](https://user-images.githubusercontent.com/5110232/180419342-c5dbee52-1a65-4562-a3d5-a270fd269e1b.PNG)
 
 The amount of offset voltage from the datasheet of AD8605 is as follows:
 
-![The offset from the datasheet](https://user-images.githubusercontent.com/5110232/180289330-f864e050-efb7-48f2-8640-c628d98ae1ae.png)
+![The offset voltage from the datasheet](https://user-images.githubusercontent.com/5110232/180289330-f864e050-efb7-48f2-8640-c628d98ae1ae.png)
+
+Bias current, however, seems less than what we expect.
+
+![The bias current from the datasheet](https://user-images.githubusercontent.com/5110232/180419692-10e1df24-7411-42e4-96d0-96a9b92fca9c.png)
 
 ## Reference
 
