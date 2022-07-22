@@ -10,7 +10,7 @@ The amount of offset voltage from the datasheet of AD8605 is as follows:
 
 ![The offset voltage from the datasheet](https://user-images.githubusercontent.com/5110232/180289330-f864e050-efb7-48f2-8640-c628d98ae1ae.png)
 
-Bias current, however, seems less than what we expect.
+The bias current, however, seems less than what we expect.
 
 ![The bias current from the datasheet](https://user-images.githubusercontent.com/5110232/180419692-10e1df24-7411-42e4-96d0-96a9b92fca9c.png)
 
