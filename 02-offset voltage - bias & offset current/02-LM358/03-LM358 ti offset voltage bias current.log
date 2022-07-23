@@ -1,0 +1,4 @@
+Circuit: * C:\Users\LP\Documents\GitHub\LTspice\02-offset voltage - bias & offset current\02-LM358\03-LM358 ti offset voltage bias current.asc
+
+Fatal Error: Unknown subcircuit called in:
+   xu1 inp out +5v 0 out lm358
