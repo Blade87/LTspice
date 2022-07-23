@@ -15,7 +15,7 @@ WINDOW 0 48 -16 Left 2
 WINDOW 3 48 48 Left 2
 SYMATTR Value LM358
 SYMATTR Prefix X
-SYMATTR ModelFile D:\Course\LTspice\sim\model\LM358.cir
+SYMATTR ModelFile C:\Users\LP\Documents\GitHub\LTspice\02-offset voltage - bias & offset current\02-LM358\LM358 Onsemi.MOD
 PIN 0 32 NONE 0
 PINATTR PinName In+
 PINATTR SpiceOrder 1

@@ -1,4 +1,4 @@
-Circuit: * C:\Users\HoP\Desktop\01-AD8605\01-LM358 offset voltage bias current.asc
+Circuit: * C:\Users\LP\Documents\GitHub\LTspice\02-offset voltage - bias & offset current\02-LM358\01-LM358 offset voltage bias current.asc
 
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -25,8 +25,8 @@ voffset: AVG(v(inp)-v(out))=0.000422359 FROM 0 TO 0.001
 ibias: AVG(ix(u1:in+))=-9.60678e-009 FROM 0 TO 0.001
 
 
-Date: Fri Jul 22 17:38:16 2022
-Total elapsed time: 0.148 seconds.
+Date: Sat Jul 23 09:33:16 2022
+Total elapsed time: 0.101 seconds.
 
 tnom = 27
 temp = 27
@@ -39,7 +39,7 @@ rejected = 0
 matrix size = 64
 fillins = 26
 solver = Normal
-Thread vector: 14.6/9.8[2] 7.3/5.1[2] 2.5/2.3[1] 0.3/2.7[1]  2592/500
-Matrix Compiler1: 5.99 KB object code size  2.5/1.5/[0.7]
-Matrix Compiler2: 5.95 KB object code size  1.5/1.3/[0.4]
+Thread vector: 16.8/2.6[2] 2.1/1.5[2] 1.0/3.9[1] 0.2/1.0[1]  2592/500
+Matrix Compiler1: 5.99 KB object code size  0.9/0.5/[0.3]
+Matrix Compiler2: 5.95 KB object code size  0.6/0.8/[0.3]
 
