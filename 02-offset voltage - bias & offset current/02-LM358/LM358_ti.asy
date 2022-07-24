@@ -15,7 +15,7 @@ WINDOW 0 48 -16 Left 2
 WINDOW 3 48 48 Left 2
 SYMATTR Value LM358
 SYMATTR Prefix X
-SYMATTR ModelFile C:\Users\LP\Documents\GitHub\LTspice\02-offset voltage - bias & offset current\02-LM358\lmx58_lm2904_ti.lib
+SYMATTR ModelFile C:\Users\HoP\Documents\GitHub\LTspice\02-offset voltage - bias & offset current\02-LM358\lmx58_lm2904_ti.lib
 PIN 0 32 NONE 0
 PINATTR PinName In+
 PINATTR SpiceOrder 1

@@ -1,1 +1,139 @@
-Fatal Error: Could not open library file "C:\Users\LP\Documents\GitHub\LTspice\02-offset voltage - bias & offset current\02-LM358\lmx58_lm2904_ti.lib"
+Circuit: * C:\Users\HoP\Documents\GitHub\LTspice\02-offset voltage - bias & offset current\02-LM358\03-LM358 ti offset voltage bias current.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 8.58917e-005
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.0416667
+Gmin = 8.302e-005
+vernier = 0.0555555
+Gmin = 7.35747e-005
+vernier = 0.074074
+vernier = 0.0987653
+Gmin = 6.04151e-005
+vernier = 0.131687
+vernier = 0.175583
+Gmin = 4.42899e-005
+vernier = 0.23411
+Gmin = 2.68849e-005
+vernier = 0.312147
+vernier = 0.416196
+Gmin = 1.20237e-005
+vernier = 0.554928
+vernier = 0.739903
+Gmin = 3.45809e-006
+vernier = 0.986537
+Gmin = 4.91579e-007
+vernier = 1
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 3.94325e-007
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+Source Step = 89.9976%
+Source Step = 90.0243%
+Source Step = 90.0539%
+Source Step = 90.0835%
+Source Step = 90.113%
+Source Step = 90.1426%
+Source Step = 90.1722%
+Source Step = 90.2018%
+Source Step = 90.2314%
+vernier = 0.00146484
+Source Step = 90.2758%
+Source Step = 90.3202%
+Source Step = 90.3646%
+Source Step = 90.409%
+Source Step = 90.4534%
+vernier = 0.00219727
+Source Step = 90.5177%
+Source Step = 90.5843%
+Source Step = 90.6509%
+Source Step = 90.7175%
+Source Step = 90.7841%
+vernier = 0.0032959
+Source Step = 90.8773%
+Source Step = 90.9772%
+Source Step = 91.077%
+Source Step = 91.1769%
+Source Step = 91.2768%
+vernier = 0.00494385
+Source Step = 91.4116%
+Source Step = 91.5614%
+Source Step = 91.7112%
+Source Step = 91.8611%
+Source Step = 92.0109%
+vernier = 0.00741577
+Source Step = 92.2056%
+Source Step = 92.4303%
+Source Step = 92.6551%
+Source Step = 92.8798%
+Source Step = 93.1045%
+vernier = 0.0111237
+Source Step = 93.3854%
+Source Step = 93.7225%
+Source Step = 94.0596%
+Source Step = 94.3966%
+Source Step = 94.7337%
+vernier = 0.0166855
+Source Step = 95.1382%
+Source Step = 95.6438%
+Source Step = 96.1495%
+Source Step = 96.6551%
+Source Step = 97.1607%
+vernier = 0.0250282
+Source Step = 97.7422%
+Source Step = 98.5006%
+Source Step = 99.259%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+
+voffset: AVG(v(inp)-v(out))=-0.0019809 FROM 0 TO 0.001
+
+Measurement "ibias" FAIL'ed
+
+
+Date: Sun Jul 24 23:13:23 2022
+Total elapsed time: 2.264 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 9395
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 138
+fillins = 204
+solver = Normal
+Thread vector: 35.4/8.8[3] 4.8/8.2[1] 4.5/2.9[3] 0.9/2.9[1]  2592/500
+Matrix Compiler1: 18.04 KB object code size  7.2/4.6/[2.1]
+Matrix Compiler2: 14.73 KB object code size  2.9/4.7/[1.0]
+
