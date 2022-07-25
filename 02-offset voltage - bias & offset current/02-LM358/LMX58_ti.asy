@@ -13,8 +13,8 @@ LINE Normal 40 -8 40 0
 LINE Normal 36 36 44 36
 WINDOW 0 48 -16 Left 2
 WINDOW 3 48 48 Left 2
-SYMATTR Value LM358
 SYMATTR Prefix X
+SYMATTR Value LMX58_LM2904
 SYMATTR ModelFile C:\Users\HoP\Documents\GitHub\LTspice\02-offset voltage - bias & offset current\02-LM358\lmx58_lm2904_ti.lib
 PIN 0 32 NONE 0
 PINATTR PinName In+
@@ -31,3 +31,4 @@ PINATTR SpiceOrder 4
 PIN 64 16 NONE 0
 PINATTR PinName OUT
 PINATTR SpiceOrder 5
+
