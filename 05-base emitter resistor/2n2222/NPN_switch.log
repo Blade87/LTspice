@@ -1,0 +1,27 @@
+Circuit: * C:\Users\HoP\Documents\LTspiceXVII\NPN_switch.asc
+
+WARNING: Node N003 is floating.
+
+Direct Newton iteration for .op point succeeded.
+.step x=1800
+.step x=18000
+.step x=180000
+.step x=1.8e+006
+
+Date: Fri Jun 02 18:07:14 2023
+Total elapsed time: 0.193 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3920
+traniter = 3914
+tranpoints = 1587
+accept = 1437
+rejected = 150
+matrix size = 14
+fillins = 0
+solver = Normal
+Matrix Compiler1: 670 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.01 KB object code size  0.1/0.2/[0.1]
+

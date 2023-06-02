@@ -1,0 +1,22 @@
+Circuit: * C:\Users\HoP\Documents\LTspiceXVII\NPN_switch_dcSweep.asc
+
+.step temp=-50°C
+.step temp=25°C
+.step temp=125°C
+
+Date: Fri Jun 02 18:07:09 2023
+Total elapsed time: 0.099 seconds.
+
+tnom = 27
+temp = 125
+method = trap
+totiter = 30
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 506 bytes object code size
+Matrix Compiler2: 740 bytes object code size
