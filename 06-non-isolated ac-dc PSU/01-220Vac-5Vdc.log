@@ -1,0 +1,26 @@
+Circuit: * C:\Users\SGI-U3\Documents\GitHub\LTspice\06-non-isolated ac-dc PSU\01-220Vac-5Vdc.asc
+
+c1: Increased Cpar to 1e-12
+c2: Increased Cpar to 1e-10
+c3: Increased Cpar to 1e-11
+c4: Increased Cpar to 1e-11
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jan 13 07:47:34 2024
+Total elapsed time: 0.736 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 52406
+traniter = 52394
+tranpoints = 18506
+accept = 13179
+rejected = 5327
+matrix size = 18
+fillins = 13
+solver = Normal
+Avg thread counts: 1.1/1.1/1.1/1.1
+Matrix Compiler1: 2.23 KB object code size  1.1/0.7/[0.6]
+Matrix Compiler2: 1.75 KB object code size  0.4/0.6/[0.4]
+
