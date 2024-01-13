@@ -4,8 +4,8 @@ WARNING: Node N002 is floating.
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Sat Jan 13 10:03:58 2024
-Total elapsed time: 0.156 seconds.
+Date: Sat Jan 13 10:06:16 2024
+Total elapsed time: 0.209 seconds.
 
 tnom = 27
 temp = 27
@@ -19,6 +19,6 @@ matrix size = 18
 fillins = 15
 solver = Normal
 Avg thread counts: 2.0/3.2/3.2/2.0
-Matrix Compiler1: 1.81 KB object code size  1.0/0.8/[0.5]
+Matrix Compiler1: 1.81 KB object code size  1.2/1.3/[0.8]
 Matrix Compiler2: 1.65 KB object code size  0.5/0.7/[0.4]
 

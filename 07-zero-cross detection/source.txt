@@ -1,0 +1,2 @@
+Comparator Hysteresis Network
+http://www.labbookpages.co.uk/electronics/resNetworks/comparator.html
