@@ -1,0 +1,22 @@
+Circuit: * C:\Users\SGI-U3\Documents\GitHub\LTspice\02-basics\04-chirp_rc_lpf.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Feb 27 09:01:01 2024
+Total elapsed time: 2.460 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 423814
+traniter = 423811
+tranpoints = 211355
+accept = 142878
+rejected = 68477
+matrix size = 4
+fillins = 0
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 118 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 208 bytes object code size  0.2/0.3/[0.2]
+
