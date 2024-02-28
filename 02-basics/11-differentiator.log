@@ -1,0 +1,27 @@
+Circuit: * C:\Users\SGI-U3\Documents\GitHub\LTspice\02-basics\11-differentiator.asc
+
+Direct Newton iteration for .op point succeeded.
+
+vout_max: MAX(v(out))=0.629788 FROM 0.054 TO 0.058
+noise_period=8.52443e-05 FROM 0.000602948 TO 0.000688192
+noise_freq: 1/noise_period=11731
+
+
+Date: Wed Feb 28 11:25:45 2024
+Total elapsed time: 1.897 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 120061
+traniter = 120050
+tranpoints = 60026
+accept = 60024
+rejected = 2
+matrix size = 11
+fillins = 4
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 682 bytes object code size  0.9/0.4/[0.4]
+Matrix Compiler2: 1.02 KB object code size  0.4/0.4/[0.3]
+
