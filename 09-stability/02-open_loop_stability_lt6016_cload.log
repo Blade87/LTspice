@@ -1,0 +1,72 @@
+Circuit: * C:\Users\HoP\Documents\GitHub\LTspice\09-stability\02-open_loop_stability_lt6016_cload.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.05488
+vernier = 0.166667
+vernier = 0.0833333
+vernier = 0.0416667
+vernier = 0.0208333
+vernier = 0.0104167
+Gmin = 1.00203
+vernier = 0.00520833
+vernier = 0.00260417
+vernier = 0.00130208
+vernier = 0.000651042
+Gmin = 1.00008
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 21.5909%
+Source Step = 23.4848%
+Source Step = 25.3788%
+Source Step = 27.2727%
+Source Step = 29.1667%
+vernier = 0.09375
+Source Step = 31.1553%
+Source Step = 33.9962%
+Source Step = 36.8371%
+Source Step = 39.678%
+Source Step = 42.5189%
+Source Step = 45.3598%
+vernier = 0.140625
+Source Step = 49.6212%
+Source Step = 53.8826%
+Source Step = 58.1439%
+Source Step = 62.4053%
+Source Step = 66.6667%
+vernier = 0.210938
+Source Step = 72.8456%
+Source Step = 79.2377%
+Source Step = 85.6297%
+Source Step = 92.0218%
+Source Step = 98.4138%
+vernier = 0.316406
+Source stepping succeeded in finding the operating point.
+
+
+Date: Thu Feb 29 14:20:37 2024
+Total elapsed time: 0.105 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 3333
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 23
+fillins = 27
+solver = Normal
+Matrix Compiler1:     116 opcodes
+Matrix Compiler2: off  [0.6]/1.6/1.0
+
