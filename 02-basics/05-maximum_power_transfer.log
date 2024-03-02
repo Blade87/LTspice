@@ -1,0 +1,10 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\HoP\Documents\GitHub\LTspice\02-basics\05-maximum_power_transfer.asc
+Start Time: Sat Mar  2 22:15:09 2024
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Total elapsed time: 0.814 seconds.
+
