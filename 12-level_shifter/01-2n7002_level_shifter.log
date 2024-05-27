@@ -1,0 +1,11 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\SGI-U3\Documents\GitHub\LTspice\12-level_shifter\01-2n7002_level_shifter.asc
+Start Time: Mon May 27 10:08:05 2024
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.356 seconds.
+
