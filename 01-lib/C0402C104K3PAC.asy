@@ -1,0 +1,17 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 0 -6 0 -32
+LINE Normal 0 7 0 32
+LINE Normal 16 7 -15 7
+LINE Normal 16 -6 -16 -6
+WINDOW 0 80 -34 Top 2
+WINDOW 3 120 10 Bottom 1
+SYMATTR Prefix X
+SYMATTR Value C0402C104K3PAC
+SYMATTR ModelFile C:\Users\hop\Documents\GitHub\LTspice\01-lib\C0402C104K3PAC.CKT
+PIN 0 -32 NONE 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN 0 32 NONE 8
+PINATTR PinName 6
+PINATTR SpiceOrder 2
