@@ -1,0 +1,16 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -48 -24 48 24
+WINDOW 0 0 -24 Bottom 2
+WINDOW 3 0 24 Top 2
+WINDOW 39 0 48 Top 2
+SYMATTR Prefix X
+SYMATTR Value B58031I9254M062_0.25uF_LP_TD
+SYMATTR ModelFile C:\Users\SGI-U3\Downloads\B58031I9254M062_0.25uF_LP_TD.subckt
+SYMATTR SpiceLine esr=20.0m esl=2.7n captemp=85 fg=10
+PIN -48 0 LEFT 8
+PINATTR PinName A1
+PINATTR SpiceOrder 1
+PIN 48 0 RIGHT 8
+PINATTR PinName A2
+PINATTR SpiceOrder 2
