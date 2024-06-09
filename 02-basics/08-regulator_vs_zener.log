@@ -1,0 +1,50 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\SGI-U3\Documents\GitHub\LTspice\02-basics\08-regulator_vs_zener.asc
+Start Time: Sun Jun  9 17:12:40 2024
+solver = Normal
+Maximum thread count: 8
+
+
+
+c1: Increased Cpar to 4.7e-11
+c2: Increased Cpar to 4.7e-11
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+vernier = 0.5
+vernier = 0.25
+vernier = 0.333333
+Gmin = 0.0873274
+vernier = 0.444444
+Gmin = 0.0345583
+vernier = 0.592592
+vernier = 0.790123
+Gmin = 0.00790584
+vernier = 1
+Gmin = 0.000965423
+Gmin = 0.000103662
+Gmin = 1.11306e-05
+Gmin = 1.19514e-06
+Gmin = 1.28327e-07
+Gmin = 1.3779e-08
+Gmin = 1.47951e-09
+Gmin = 1.58861e-10
+Gmin = 1.70576e-11
+Gmin = 1.83154e-12
+Gmin = 1.9666e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step load=50
+
+
+
+.step load=100
+tnom = 27
+temp = 27
+method = modified trap
+.step load=200
+Total elapsed time: 0.269 seconds.
+
