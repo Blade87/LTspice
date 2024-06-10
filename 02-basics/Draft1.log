@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
-Circuit: * C:\Users\SGI-U3\Documents\GitHub\LTspice\02-basics\08-regulator_vs_zener.asc
-Start Time: Mon Jun 10 08:14:31 2024
+Circuit: * C:\Users\SGI-U3\Documents\GitHub\LTspice\02-basics\Draft1.asc
+Start Time: Mon Jun 10 08:07:16 2024
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -37,5 +37,5 @@ Gmin = 1.9666e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.099 seconds.
+Total elapsed time: 0.098 seconds.
 
