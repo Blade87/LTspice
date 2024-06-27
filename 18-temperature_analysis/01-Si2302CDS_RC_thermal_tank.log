@@ -1,0 +1,11 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\18-temperature_analysis\01-Si2302CDS_RC_thermal_tank.asc
+Start Time: Thu Jun 27 22:35:00 2024
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.114 seconds.
+
