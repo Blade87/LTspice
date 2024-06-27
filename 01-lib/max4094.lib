@@ -1,0 +1,123 @@
+*** MACROMODEL FOR MAX4094 ***
+*******************************************
+
+.SUBCKT MAX4094 OUT1 IN1- IN1+ VCC IN2+ IN2- OUT2 OUT3 IN3- IN3+ VEE IN4+ IN4- OUT4
+ XAMP1 VCC VEE IN1+ IN1- OUT1 MAX4091
+ XAMP2 VCC VEE IN2+ IN2- OUT2 MAX4091
+ XAMP3 VCC VEE IN3+ IN3- OUT3 MAX4091
+ XAMP4 VCC VEE IN4+ IN4- OUT4 MAX4091
+.ENDS
+*******************************************
+.subckt MAX4091 VCC VEE IN+ IN- OUT
+
+***Iq Variation with Vdd & Load***
+I_Iq         VCC VEE DC 9.739130e-005
+G_GQ         VCC VEE VINT VEE 6.521739e-006
+X_FLq    N9753217 OUT VEE VCC OpAmp_FLq
+
+***Vdd Range***
+X_M3         VO N9753121 VEE VEE nmosmacro
+X_M4         VO N9753137 VEE VEE nmosmacro
+E_EL         N9753121 VEE VINT N97538991 -1E5
+E_EH         N9753137 VEE VINT N97539451 1E5
+V_VL         N97538991 VEE 2.700000e+000
+V_VH         N97539451 VEE 6.000000e+000
+
+*** Power-up Delay Time ***
+C_Cst         VEE N9752795  1n
+D_Dst         N9752795 N9755113 diodemacro 
+G_Gst         N9752795 VEE VCC VEE -5.000000e-004
+E_Est1         N9755113 VEE VCC VEE 1
+E_Est2         VINT VEE N9752795 VEE 1
+
+***Input Parameters***
+I_Ib+         IN+ VEE DC 2.010000e-008
+I_Ib-         IN- VEE DC 1.990000e-008
+R_Ri+         VCM IN+  5.000000e+011
+R_Ri-         IN- VCM  5.000000e+011
+V_Voff         N9752739 IN- -3.000000e-005
+
+***ICMR***
+X_M1         VO N9754397 VEE VEE nmosmacro
+X_M2         VO N9754361 VEE VEE nmosmacro
+E_EicL         N9754361 VEE VCM N97542791 -5E6
+E_EicH         N9754397 VEE VCM N97544611 1E5
+V_VicL         N97542791 VEE -5.000000e-002
+V_VicH         N97544611 VINT 5.000000e-002
+
+*** GBW Product & Slew Rate ***
+G_Gg         VM VEE IN+ N9752739 -1
+R_Rg         VEE VM  1.792370e+005
+C_Cgbw         VEE VGBW  3.183099e-007
+D_D1         VM N9753845 diodemacro 
+D_D2         N9753721 VM diodemacro 
+I_Isr         N9753845 N9753721 DC 6.366198e-002
+D_D3         VGBW N9753845 diodemacro 
+D_D4         N9753721 VGBW diodemacro 
+
+*** Phase Margin ***
+G_Gpm         N9752755 VEE VGBW VEE -1
+R_Rpm         VEE N9752755  1  
+C_Cpm         VEE N9752755 1.837763e-007
+
+*** PSRR ***
+C_Cps         VINT N9754047  16m  
+L_Lps         N9753297 VEE  3.160362e-005
+R_Rps         VEE N9754047  1k  
+R_Rps1         N9753297 N9752963  1 
+R_Rps2         VEE N9753297  1.390000e+002
+G_Gps1         N9752963 VEE N9754047 VEE -1.000000e-005
+G_Gps2         VM VEE N9752963 VEE -1
+
+*** CMRR ***
+E_Ecm         N97531790 VEE VCM VEE 1
+C_Ccm         N97531790 N9793192  16m  
+L_Lcm         N9794564 VEE 3.181507e-004
+R_Rcm         VEE N9793192  1Meg  
+R_Rcm1         N9794564 N9793623  1  
+R_Rcm2         VEE N9794564  1.999000e+003
+G_Gcm1         N9793623 VEE N9793192 VEE -3.162278e-005
+G_Gcm2         VM VEE N9793623 VEE -1
+
+*** O/P Stage ***
+G_Go         VO VEE N9752755 VEE -1.262037e-003
+R_Ro         VEE VO 7.923700e+002
+V_Vs1         N97533970 N9752921 1.378142e-002
+V_Vs2         N9753531 VEE 1.432562e-002
+D_Ds1         VO N9752921 diodemacro 
+D_Ds2         N9752867 VO diodemacro 
+X_Hs1    N9753481 VSH VINT N97533970 OpAmp_Hs1 
+X_Hs2    N9753481 VO N9752867 N9753531 OpAmp_Hs2 
+
+D_D5         VSH N9754491 diodemacro 
+D_D6         N9754425 VSH diodemacro 
+I_Ish         N9754491 N9754425 DC 8.000000e-002
+D_D7         N9753217 N9754491 diodemacro 
+D_D8         N9754425 N9753217 diodemacro 
+
+***********
+.model diodemacro d(n=0.001)  
+.ENDS MAX4091
+*******************
+.subckt OpAmp_Hs1 1 2 3 4  
+H_Hs1         3 4 VH_Hs1 4.903738e+001
+VH_Hs1         1 2 0V
+.ends OpAmp_Hs1
+.subckt OpAmp_Hs2 1 2 3 4  
+H_Hs2         3 4 VH_Hs2 2.713818e+001
+VH_Hs2         1 2 0V
+.ends OpAmp_Hs2
+.subckt OpAmp_FLq 1 2 3 4  
+F_FLq         3 4 VF_FLq -1
+VF_FLq         1 2 0V
+.ends OpAmp_FLq
+***********
+.subckt nmosmacro d g s b
+m1 d g s b nmos
+.model nmos nmos(VTO=0.5 KP=100E-6 w=20u l=1u)
+.ends
+*******************
+
+
+
+* Copyright (c) 2003-2015 Maxim Integrated Products.  All Rights Reserved.
