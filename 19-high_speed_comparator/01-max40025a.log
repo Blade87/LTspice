@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\hop\Documents\GitHub\LTspice\19-high_speed_comparator\01-max40025a.asc
-Start Time: Thu Jul  4 19:07:19 2024
+Start Time: Thu Jul  4 22:58:13 2024
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -10,5 +10,5 @@ WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton fo
 Direct Newton iteration for .op point succeeded.
 Ignoring empty pin current: Ix(u1:gnd)
 Ignoring empty pin current: Ix(u1:gnd)
-Total elapsed time: 0.163 seconds.
+Total elapsed time: 0.161 seconds.
 

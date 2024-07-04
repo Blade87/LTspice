@@ -1,11 +1,11 @@
 Version 4
 SymbolType BLOCK
-RECTANGLE Normal 96 48 -64 -80
-WINDOW 0 82 77 Bottom 2
-WINDOW 3 124 78 Top 2
+RECTANGLE Normal 96 48 -63 -80
+WINDOW 0 68 77 Bottom 2
+WINDOW 3 108 77 Top 2
 SYMATTR Prefix X
 SYMATTR Value MAX40025A
-SYMATTR ModelFile C:\Users\hop\Desktop\sim\max40025a.lib
+SYMATTR ModelFile C:\Users\hop\Documents\GitHub\LTspice\01-lib\max40025a.lib
 PIN -64 -32 LEFT 8
 PINATTR PinName INP
 PINATTR SpiceOrder 1

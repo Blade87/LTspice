@@ -1,1 +1,14 @@
-Fatal Error: Could not open library file "TLP2770.mod"
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\20-digital_isolator\01-tlp2770.asc
+Start Time: Thu Jul  4 23:02:16 2024
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 4.01013e-08 to 4.02977e-08
+Heightened Def Con from 2.80191e-07 to 2.81656e-07
+Heightened Def Con from 4.40162e-07 to 4.41627e-07
+Total elapsed time: 0.189 seconds.
+

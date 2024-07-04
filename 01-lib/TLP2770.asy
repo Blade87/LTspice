@@ -50,7 +50,7 @@ WINDOW 0 0 -80 Center 2
 WINDOW 38 -1 54 Center 2
 SYMATTR SpiceModel TLP2770
 SYMATTR Prefix X
-SYMATTR ModelFile TLP2770.mod
+SYMATTR ModelFile C:\Users\hop\Documents\GitHub\LTspice\01-lib\TLP2770.mod
 PIN -96 -48 LEFT 5
 PINATTR PinName A
 PINATTR SpiceOrder 1
