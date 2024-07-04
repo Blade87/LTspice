@@ -1,0 +1,68 @@
+Version 4
+SymbolType CELL
+LINE Normal -96 -48 -56 -48
+LINE Normal -56 -16 -56 -48
+LINE Normal -56 16 -56 48
+LINE Normal -96 48 -56 48
+LINE Normal -80 -16 -32 -16
+LINE Normal -56 16 -32 -16
+LINE Normal -56 16 -80 -16
+LINE Normal -80 16 -32 16
+LINE Normal 72 -48 96 -48
+LINE Normal 72 -24 72 -48
+LINE Normal 64 -15 72 -15
+LINE Normal 65 24 72 24
+LINE Normal 72 16 72 -15
+LINE Normal 64 -24 72 -24
+LINE Normal 72 47 72 24
+LINE Normal 64 -11 64 -36
+LINE Normal 65 37 65 12
+LINE Normal 59 -17 59 -31
+LINE Normal 60 31 60 17
+LINE Normal 48 -24 59 -24
+LINE Normal 60 24 48 24
+LINE Normal 96 0 72 0
+LINE Normal 68 -25 72 -24
+LINE Normal 68 -22 68 -25
+LINE Normal 72 -24 68 -22
+LINE Normal 69 26 65 24
+LINE Normal 69 22 69 26
+LINE Normal 65 24 69 22
+LINE Normal -19 -3 -33 7
+LINE Normal -18 4 -19 -3
+LINE Normal 0 -4 -18 4
+LINE Normal -6 -4 0 -4
+LINE Normal -3 0 -6 -4
+LINE Normal 0 -4 -3 0
+LINE Normal 65 16 72 16
+LINE Normal 96 48 72 47
+LINE Normal 33 -1 41 -1
+LINE Normal 16 -13 33 -1
+LINE Normal 16 12 16 -13
+LINE Normal 33 -1 16 12
+LINE Normal 48 24 48 -24
+LINE Normal 48 -1 41 -1
+LINE Normal 65 32 72 32
+LINE Normal 64 -32 72 -32
+RECTANGLE Normal -96 -64 96 64
+CIRCLE Normal 74 2 70 -2
+WINDOW 0 0 -80 Center 2
+WINDOW 38 -1 54 Center 2
+SYMATTR SpiceModel TLP2770
+SYMATTR Prefix X
+SYMATTR ModelFile TLP2770.mod
+PIN -96 -48 LEFT 5
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN -96 48 LEFT 5
+PINATTR PinName K
+PINATTR SpiceOrder 2
+PIN 96 48 RIGHT 5
+PINATTR PinName GND
+PINATTR SpiceOrder 3
+PIN 96 0 RIGHT 8
+PINATTR PinName VOUT
+PINATTR SpiceOrder 4
+PIN 96 -48 RIGHT 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 5
