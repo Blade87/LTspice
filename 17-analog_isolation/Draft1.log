@@ -1,0 +1,4 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\17-analog_isolation\Draft1.asc
+Start Time: Fri Jul  5 12:15:30 2024
+Fatal Error: Unknown SPICE device type "1" in "17f62b1fb318c25603aeb85644ae98a5d179ef807807791f6459efacb9d7ffc35a73a37243d4cce46a460e928d7c8f9c39ee99122a9d3f96f7d47fafa32ba578"
