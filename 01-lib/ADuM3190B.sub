@@ -1,0 +1,63 @@
+* Node Assignments
+*                       primary positive supply
+*                       |    primary regulator output
+*                       |    |    primary reference output
+*                       |    |    |       isolated open drain output
+*                       |    |    |       |      isolated output
+*                       |    |    |       |      |     primary negative supply
+*                       |    |    |       |      |     |    secondary negative supply
+*                       |    |    |       |      |     |    |    op output
+*                       |    |    |       |      |     |    |    |    inverting input
+*                       |    |    |       |      |     |    |    |    |   noninverting input
+*                       |    |    |       |      |     |    |    |    |   |   secondary reference output
+*                       |    |    |       |      |     |    |    |    |   |   |      secondary regulator output
+*                       |    |    |       |      |     |    |    |    |   |   |      |     secondary positive supply
+*                       |    |    |       |      |     |    |    |    |   |   |      |     |
+.SUBCKT ADuM3190       Vdd1 Vreg1 REFout1 EAout2 EAout GND1 GND2 COMP -IN +IN REFout Vreg2 Vdd2
+*
+B1 N004 GND1 V=limit((delay(V(X,GND2), 300n)),.5,2.09)
+R3 N006 COMP 70k
+C3 X N006 6.3p
+V2 N014 GND2 1.35 Rser=0
+E1 X GND2 N014 N006 10k
+E2 COMP GND2 +IN N007 10k
+R4 X N006 46.5K
+E3 N011 GND1 N015 N005 10k
+C4 N005 N011 6.3p
+R5 Y N005 70k
+V3 N015 GND1 1.35 Rser=0
+E4 Y GND1 N011 GND1 1.5
+R1 N005 N004 46.5K
+R2 N010 GND1 157.2K
+R6 EAOUT2 N010 252.5K
+E5 N003 GND1 N010 N008 10k
+R7 N008 Y 2K
+B2 N012 GND1 V=limit(V(Y,GND1),.4,(V(Vreg1)-.3))
+B3 REFout1 GND1 V=limit(V(Vreg1,GND1),0,1.223)
+I1 Vdd1 GND1 5m load
+B4 REFout GND2 V=limit(V(Vreg2,GND2),0,1.223)
+I2 Vdd2 GND2 2m load
+B5 N002 GND2 V=limit(V(Vdd2,GND2),0,3)
+R9 N002 Vreg2 10
+B6 N001 GND1 V=limit(V(Vdd1,GND1),0,3)
+R10 Vreg1 N001 10
+Q1 N007 GND2 COMP 0 limit
+M1 EAOUT2 N003 GND1 GND1 outfet
+Q2 N008 GND1 N003 0 limit
+C6 N003 N008 2p
+C1 GND1 GND2 2.2p
+Q3 N007 N002 COMP 0 plimit
+R8 N007 N009 1k
+E6 N009 GND2 -IN GND2 1
+S1 N012 N013 Vdd2 GND2 SW
+S2 N013 EAOUT Vdd1 GND1 SW
+.model NPN NPN
+.model PNP PNP
+.model NMOS NMOS
+.model PMOS PMOS
+.model outfet VDMOS(Rg=100 Vto=2.2 Rd=.8 Rs=.2 Rb=1 Kp=.4 lambda=.01 Cgdmax=.005n Cgdmin=.004n Cgs=.004n Cjo=.004n Is=2p ksubthres=.1 mfg=Fairchild Vds=50 Ron=2000m Qg=1n)
+.model limit NPN(IS=1E-14 VAF=100 Bf=300 IKF=0.4 XTB=1.5 BR=4 CJC=4E-12  CJE=8E-12 RB=20 RC=0.1 RE=0.1 TR=250E-9  TF=350E-12 ITF=1 VTF=2 XTF=3 Vceo=40 Icrating=200m)
+.model plimit PNP(IS=1E-14 VAF=120 BF=250 IKF=0.3 XTB=1.5 BR=3 CJC=8E-12 CJE=30E-12 TR=100E-9 TF=400E-12 ITF=1 VTF=2 XTF=3 RB=10 RC=.3 RE=.2 Vceo=40 Icrating=600m)
+.model SW VSWITCH(RON=5 ROFF=1E+10 VON=2.8 VOFF=2.6)
+.backanno
+.end
