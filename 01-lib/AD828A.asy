@@ -1,0 +1,33 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 32 0 -32 -32
+LINE Normal -32 32 -32 -32
+LINE Normal 32 0 -32 32
+LINE Normal 0 -16 0 -32
+LINE Normal 0 32 0 16
+LINE Normal -19 -16 -25 -16
+LINE Normal -19 16 -25 16
+LINE Normal -22 19 -22 13
+LINE Normal 9 -22 3 -22
+LINE Normal 6 -19 6 -25
+LINE Normal 9 23 3 23
+WINDOW 0 51 33 Bottom 2
+WINDOW 3 68 28 Top 2
+SYMATTR Value AD828A
+SYMATTR Prefix X
+SYMATTR ModelFile C:\Users\SGI-U3\Documents\GitHub\LTspice\01-lib\ad828a.cir
+PIN -32 16 NONE 8
+PINATTR PinName 2
+PINATTR SpiceOrder 1
+PIN -32 -16 NONE 8
+PINATTR PinName 1
+PINATTR SpiceOrder 2
+PIN 0 -32 NONE 5
+PINATTR PinName 99
+PINATTR SpiceOrder 3
+PIN 0 32 NONE 5
+PINATTR PinName 50
+PINATTR SpiceOrder 4
+PIN 32 0 NONE 8
+PINATTR PinName 46
+PINATTR SpiceOrder 5

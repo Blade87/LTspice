@@ -1,0 +1,11 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\SGI-U3\Documents\GitHub\LTspice\19-high_speed_comparator\02-ad828_amplifier.asc
+Start Time: Sat Jul  6 15:52:32 2024
+solver = Alternate
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.322 seconds.
+
