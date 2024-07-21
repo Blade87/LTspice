@@ -1,0 +1,74 @@
+Version 4
+SymbolType CELL
+LINE Normal -80 -32 -80 304
+LINE Normal 96 -32 -80 -32
+LINE Normal 96 304 96 -32
+LINE Normal -80 304 96 304
+LINE Normal 128 160 92 160
+LINE Normal 128 224 92 224
+LINE Normal 128 288 92 288
+LINE Normal -111 -16 -75 -16
+LINE Normal -111 16 -75 16
+LINE Normal -111 80 -75 80
+LINE Normal -112 192 -76 192
+LINE Normal -111 256 -75 256
+LINE Normal -111 288 -75 288
+LINE Normal 92 -16 128 -16
+LINE Normal 93 32 129 32
+LINE Normal 92 80 128 80
+TEXT 86 160 Right 1 Ct
+TEXT 86 224 Right 1 Rt
+TEXT 86 32 Right 1 Q
+TEXT 85 79 Right 1 _Q
+TEXT 87 288 Right 1 RCt
+TEXT -69 -16 Left 1 Astable
+TEXT -69 16 Left 1 _Astable
+TEXT -69 80 Left 1 NegTrig
+TEXT -70 192 Left 1 PosTrig
+TEXT -69 256 Left 1 ReTrig
+TEXT -69 288 Left 1 ExtRst
+TEXT 85 -16 Right 1 OscOut
+WINDOW 0 -16 -48 Left 2
+WINDOW 3 -43 325 Left 2
+SYMATTR Value CD4047B
+SYMATTR Description Monostable/astable multivibrator (retriggerable)
+SYMATTR SpiceLine VDD=5  SPEED=1.0  TRIPDT=5e-9
+SYMATTR Prefix X
+SYMATTR SpiceModel VDD 0
+SYMATTR ModelFile C:\Users\hop\Documents\GitHub\LTspice\01-lib\CD4047B.sub
+PIN 128 160 NONE 8
+PINATTR PinName xCt
+PINATTR SpiceOrder 1
+PIN 128 224 NONE 8
+PINATTR PinName xRt
+PINATTR SpiceOrder 2
+PIN 128 288 NONE 8
+PINATTR PinName xRct
+PINATTR SpiceOrder 3
+PIN -112 -16 NONE 8
+PINATTR PinName xAstable
+PINATTR SpiceOrder 4
+PIN -112 16 NONE 8
+PINATTR PinName _xAstable
+PINATTR SpiceOrder 5
+PIN -112 80 NONE 8
+PINATTR PinName xNegTrig
+PINATTR SpiceOrder 6
+PIN -112 192 NONE 8
+PINATTR PinName xPosTrig
+PINATTR SpiceOrder 7
+PIN -112 256 NONE 8
+PINATTR PinName xReTrig
+PINATTR SpiceOrder 8
+PIN -112 288 NONE 8
+PINATTR PinName xExtRst
+PINATTR SpiceOrder 9
+PIN 128 32 NONE 8
+PINATTR PinName xQ
+PINATTR SpiceOrder 10
+PIN 128 80 NONE 8
+PINATTR PinName _xQ
+PINATTR SpiceOrder 11
+PIN 128 -16 NONE 8
+PINATTR PinName xOscOut
+PINATTR SpiceOrder 12
