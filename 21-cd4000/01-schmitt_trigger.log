@@ -1,0 +1,12 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\21-cd4000\01-schmitt_trigger.asc
+Start Time: Sun Jul 21 10:36:12 2024
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Per .tran options, skipping operating point for transient analysis.
+Ignoring empty pin current: Ix(u1:vdd)
+Total elapsed time: 0.104 seconds.
+
