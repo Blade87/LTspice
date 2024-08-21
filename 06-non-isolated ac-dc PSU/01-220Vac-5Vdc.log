@@ -1,26 +1,43 @@
-Circuit: * C:\Users\SGI-U3\Documents\GitHub\LTspice\06-non-isolated ac-dc PSU\01-220Vac-5Vdc.asc
-
-c1: Increased Cpar to 1e-12
-c2: Increased Cpar to 1e-10
-c3: Increased Cpar to 1e-11
-c4: Increased Cpar to 1e-11
-Direct Newton iteration for .op point succeeded.
-
-Date: Sat Jan 13 07:47:34 2024
-Total elapsed time: 0.736 seconds.
-
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\06-non-isolated ac-dc PSU\01-220Vac-5Vdc.asc
+Start Time: Wed Aug 21 16:14:46 2024
+solver = Normal
+Maximum thread count: 4
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 52406
-traniter = 52394
-tranpoints = 18506
-accept = 13179
-rejected = 5327
-matrix size = 18
-fillins = 13
-solver = Normal
-Avg thread counts: 1.1/1.1/1.1/1.1
-Matrix Compiler1: 2.23 KB object code size  1.1/0.7/[0.6]
-Matrix Compiler2: 1.75 KB object code size  0.4/0.6/[0.4]
+c1: Increased Cpar to 1e-12
+c2: Increased Cpar to 1e-10
+c3: Increased Cpar to 4.7e-11
+c4: Increased Cpar to 4.7e-11
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+Gmin = 7.16743e-05
+vernier = 0.333333
+vernier = 0.444444
+Gmin = 3.04221e-05
+vernier = 0.592592
+vernier = 0.790123
+Gmin = 8.08432e-06
+vernier = 1
+Gmin = 1.07562e-06
+Gmin = 1.15494e-07
+Gmin = 1.24011e-08
+Gmin = 1.33156e-09
+Gmin = 1.42975e-10
+Gmin = 1.53518e-11
+Gmin = 1.64839e-12
+Gmin = 1.76994e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.426 seconds.
 
