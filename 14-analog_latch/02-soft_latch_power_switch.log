@@ -1,0 +1,16 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\14-analog_latch\02-soft_latch_power_switch.asc
+Start Time: Sat Aug 24 16:00:13 2024
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Unknown node in .ic card: "c1" -- ignoring
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 0.178 seconds.
+
