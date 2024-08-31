@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
-Circuit: * C:\Users\hop\Documents\GitHub\LTspice\25-gallium_nitride\01-epc2040.asc
-Start Time: Fri Aug 30 20:00:19 2024
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\25-gallium_nitride\02-epc2040.asc
+Start Time: Sat Aug 31 22:40:15 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -22,5 +22,5 @@ Measurement "peak_iload" FAIL'ed
 
 Measurement "rt_load" FAIL'ed
 
-Total elapsed time: 0.275 seconds.
+Total elapsed time: 0.311 seconds.
 

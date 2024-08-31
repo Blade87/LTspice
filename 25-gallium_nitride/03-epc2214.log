@@ -1,0 +1,37 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\25-gallium_nitride\03-epc2214.asc
+Start Time: Sat Aug 31 22:56:19 2024
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+solver = Normal
+Maximum thread count: 4
+
+
+
+Direct Newton iteration for .op point succeeded.
+.step signal_level=3.3
+tnom = 27
+temp = 27
+method = modified trap
+.step signal_level=5
+
+
+Measurement: peak_iload
+  step	i(rload)	at
+     1	-4.7731e-07	2e-08
+     2	-0.000355867	2e-08
+
+Measurement: rt_load
+  step	rt_load	FROM	TO
+     1	9.32165e-10	2.21766e-09	3.14983e-09
+     2	3.94314e-10	1.43507e-09	1.82938e-09
+
+Measurement: rf_load
+  step	rf_load	FROM	TO
+     1	6.90103e-10	1.21263e-08	1.28164e-08
+     2	4.21799e-10	1.30374e-08	1.34592e-08
+
+Total elapsed time: 0.297 seconds.
+
