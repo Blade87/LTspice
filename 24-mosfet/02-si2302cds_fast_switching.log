@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
-Circuit: * C:\Users\hop\Documents\GitHub\LTspice\24-mofet\02-si2302cds_fast_switching.asc
-Start Time: Fri Aug 30 18:31:56 2024
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\24-mosfet\02-si2302cds_fast_switching.asc
+Start Time: Mon Sep  9 18:16:57 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -32,5 +32,5 @@ Measurement: rt_load
      1	9.60802e-10	1.80064e-09	2.76144e-09
      2	5.95215e-10	1.302e-09	1.89722e-09
 
-Total elapsed time: 0.171 seconds.
+Total elapsed time: 0.287 seconds.
 
