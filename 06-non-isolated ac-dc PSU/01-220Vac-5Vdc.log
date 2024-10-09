@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\s\Documents\GitHub\LTspice\06-non-isolated ac-dc PSU\01-220Vac-5Vdc.asc
-Start Time: Wed Aug 21 16:14:46 2024
+Start Time: Wed Oct  9 15:31:21 2024
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -39,5 +39,5 @@ Gmin = 1.76994e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.426 seconds.
+Total elapsed time: 0.322 seconds.
 
