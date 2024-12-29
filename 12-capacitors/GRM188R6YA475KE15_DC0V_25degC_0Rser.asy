@@ -1,0 +1,18 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 16 28 -16 28
+LINE Normal -16 36 16 36
+LINE Normal 0 28 0 0
+LINE Normal 0 64 0 36
+TEXT 9 9 Left 2 1
+WINDOW 0 64 28 Bottom 2
+WINDOW 3 206 29 Top 1
+SYMATTR Prefix X
+SYMATTR Value GRM188R6YA475KE15_DC0V_25degC_0Rser
+SYMATTR ModelFile C:\Users\s\Documents\GitHub\LTspice\12-capacitors\GRM188R6YA475KE15_Rser_0.mod
+PIN 0 0 NONE 8
+PINATTR PinName port1
+PINATTR SpiceOrder 1
+PIN 0 64 NONE 8
+PINATTR PinName port2
+PINATTR SpiceOrder 2
