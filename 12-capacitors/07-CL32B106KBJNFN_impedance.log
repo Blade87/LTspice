@@ -1,0 +1,32 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\12-capacitors\07-CL32B106KBJNFN_impedance.asc
+Start Time: Mon Dec 30 22:48:29 2024
+solver = Normal
+Maximum thread count: 4
+
+
+
+Direct Newton iteration for .op point succeeded.
+.step dcbias=0
+
+
+
+.step dcbias=10
+
+
+
+.step dcbias=20
+
+
+
+.step dcbias=30
+
+
+
+.step dcbias=40
+tnom = 27
+temp = 27
+method = modified trap
+.step dcbias=50
+Total elapsed time: 0.627 seconds.
+
