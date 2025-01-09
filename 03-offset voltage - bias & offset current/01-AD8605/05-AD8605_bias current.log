@@ -1,0 +1,208 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\03-offset voltage - bias & offset current\01-AD8605\05-AD8605_bias current.asc
+Start Time: Thu Jan  9 21:57:43 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Instance "m:u1:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:6": Length shorter than recommended for a level 2 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u5:1      d:u5:4      d:u5:5      d:u5:6      d:u5:2
+Model:    u5:xu       u5:xd       u5:yu       u5:yd     u5:dbias
+Id:     -2.50e-11   -2.50e-11   -8.58e-19    8.58e-19   -1.20e-08
+Vd:     -2.50e+00   -2.50e+00   -8.57e-07    8.57e-07   -2.50e+00
+Req:     1.00e-11    1.00e-11    1.00e-12    1.00e-12    1.00e-03
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u5:3      d:u1:1      d:u1:2      d:u1:3      d:u1:4
+Model:  u5:dbias      u1:dx       u1:dx       u1:dx       u1:dx
+Id:     -1.20e-08   -1.80e-12   -1.80e-12    4.13e-08   -4.20e-12
+Vd:     -2.50e+00   -1.79e+00   -1.79e+00    3.94e-01   -4.19e+00
+Req:     1.00e-03    1.00e+12    1.00e+12    6.27e+05    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:1      d:u2:2      d:u2:3      d:u2:4      d:u3:1
+Model:    u2:dx       u2:dx       u2:dx       u2:dx       u3:dx
+Id:     -1.80e-12   -1.80e-12   -1.91e-12   -1.91e-12   -1.80e-12
+Vd:     -1.79e+00   -1.79e+00   -1.90e+00   -1.90e+00   -1.79e+00
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u3:2      d:u3:3      d:u3:4      d:u4:1      d:u4:2
+Model:    u3:dx       u3:dx       u3:dx       u4:dx       u4:dx
+Id:     -1.80e-12   -1.91e-12   -1.91e-12   -1.79e-12   -1.81e-12
+Vd:     -1.79e+00   -1.90e+00   -1.90e+00   -1.78e+00   -1.80e+00
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u4:3      d:u4:4
+Model:    u4:dx       u4:dx
+Id:     -1.91e-12   -1.91e-12
+Vd:     -1.90e+00   -1.90e+00
+Req:     1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00
+
+                        --- VDMOSFET Transistors ---
+Name:        m:u5:1      m:u5:2
+Model:        u5:n        u5:p
+Id:          3.50e-04   -3.50e-04
+Vgs:        -8.57e-07   -8.57e-07
+Vds:         2.50e+00   -2.50e+00
+Vth:        -1.00e-01    1.00e-01
+Gm:          7.00e-03    7.00e-03
+Gds:         0.00e+00    0.00e+00
+Cgs:         0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00
+Cbody:       0.00e+00    0.00e+00
+
+                        --- MOSFET Transistors ---
+Name:        m:u1:1      m:u1:2      m:u1:3      m:u1:4      m:u1:5
+Model:       u1:pix      u1:pix      u1:nix      u1:nix      u1:pox
+Id:         -5.01e-05   -4.99e-05    4.99e-05    5.01e-05   -1.00e-11
+Vgs:        -4.06e-01   -4.06e-01    4.06e-01    4.06e-01    1.83e+00
+Vds:        -2.71e+00   -2.71e+00    2.71e+00    2.71e+00   -4.99e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:        -3.28e-01   -3.28e-01    3.28e-01    3.28e-01   -3.28e-01
+Vdsat:      -7.80e-02   -7.79e-02    7.79e-02    7.80e-02   -0.00e+00
+Gm:          1.28e-03    1.28e-03    1.28e-03    1.28e-03    0.00e+00
+Gds:         5.14e-07    5.13e-07    5.13e-07    5.14e-07    0.00e+00
+Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         3.68e-19    3.68e-19    3.68e-19    3.68e-19    0.00e+00
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    3.73e-13
+
+Name:        m:u1:6      m:u2:1      m:u2:2      m:u2:3      m:u2:4
+Model:       u1:nox      u2:pix      u2:pix      u2:nix      u2:nix
+Id:          2.49e-04   -5.00e-05   -5.00e-05    5.00e-05    5.00e-05
+Vgs:         2.73e+00   -4.06e-01   -4.06e-01    4.06e-01    4.06e-01
+Vds:         6.45e-03   -2.71e+00   -2.71e+00    2.71e+00    2.71e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:         3.28e-01   -3.28e-01   -3.28e-01    3.28e-01    3.28e-01
+Vdsat:       2.41e+00   -7.80e-02   -7.80e-02    7.80e-02    7.80e-02
+Gm:          1.04e-04    1.28e-03    1.28e-03    1.28e-03    1.28e-03
+Gds:         3.86e-02    5.14e-07    5.14e-07    5.14e-07    5.14e-07
+Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         2.78e-13    3.68e-19    3.68e-19    3.68e-19    3.68e-19
+Cgd:         2.78e-13    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:        m:u2:5      m:u2:6      m:u3:1      m:u3:2      m:u3:3
+Model:       u2:pox      u2:nox      u3:pix      u3:pix      u3:nix
+Id:         -1.03e-04    1.03e-04   -5.00e-05   -5.00e-05    5.00e-05
+Vgs:        -4.64e-01    4.40e-01   -4.06e-01   -4.06e-01    4.06e-01
+Vds:        -2.50e+00    2.50e+00   -2.71e+00   -2.71e+00    2.71e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:        -3.28e-01    3.28e-01   -3.28e-01   -3.28e-01    3.28e-01
+Vdsat:      -1.36e-01    1.12e-01   -7.80e-02   -7.80e-02    7.80e-02
+Gm:          1.51e-03    1.84e-03    1.28e-03    1.28e-03    1.28e-03
+Gds:         1.05e-06    1.05e-06    5.14e-07    5.14e-07    5.14e-07
+Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         2.49e-13    3.71e-13    3.68e-19    3.68e-19    3.68e-19
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:        m:u3:4      m:u3:5      m:u3:6      m:u4:1      m:u4:2
+Model:       u3:nix      u3:pox      u3:nox      u4:pix      u4:pix
+Id:          5.00e-05   -1.03e-04    1.03e-04   -5.00e-05   -5.00e-05
+Vgs:         4.06e-01   -4.64e-01    4.40e-01   -4.06e-01   -4.06e-01
+Vds:         2.71e+00   -2.50e+00    2.50e+00   -2.72e+00   -2.72e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:         3.28e-01   -3.28e-01    3.28e-01   -3.28e-01   -3.28e-01
+Vdsat:       7.80e-02   -1.36e-01    1.12e-01   -7.80e-02   -7.80e-02
+Gm:          1.28e-03    1.51e-03    1.84e-03    1.28e-03    1.28e-03
+Gds:         5.14e-07    1.05e-06    1.05e-06    5.14e-07    5.14e-07
+Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         3.68e-19    2.49e-13    3.71e-13    3.68e-19    3.68e-19
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:        m:u4:3      m:u4:4      m:u4:5      m:u4:6
+Model:       u4:nix      u4:nix      u4:pox      u4:nox
+Id:          5.00e-05    5.00e-05   -1.07e-04    9.74e-05
+Vgs:         4.06e-01    4.06e-01   -4.67e-01    4.37e-01
+Vds:         2.70e+00    2.70e+00   -2.39e+00    2.61e+00
+Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:         3.28e-01    3.28e-01   -3.28e-01    3.28e-01
+Vdsat:       7.80e-02    7.80e-02   -1.39e-01    1.09e-01
+Gm:          1.28e-03    1.28e-03    1.54e-03    1.79e-03
+Gds:         5.14e-07    5.14e-07    1.10e-06    1.00e-06
+Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         3.68e-19    3.68e-19    2.49e-13    3.71e-13
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+
+
+Total elapsed time: 0.538 seconds.
+
