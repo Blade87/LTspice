@@ -1,0 +1,11 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\27-inductor\04-B82472D6103M000_tdk_model.asc
+Start Time: Sat Jan 18 16:11:44 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+.OP point found by inspection.
+Total elapsed time: 0.071 seconds.
+
