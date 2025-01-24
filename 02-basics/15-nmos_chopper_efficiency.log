@@ -1,0 +1,102 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\02-basics\15-nmos_chopper_efficiency.asc
+Start Time: Fri Jan 24 18:09:03 2025
+solver = Normal
+Maximum thread count: 4
+
+
+
+Direct Newton iteration for .op point succeeded.
+.step rload=1
+
+
+
+.step rload=2
+
+
+
+.step rload=3
+
+
+
+.step rload=4
+
+
+
+.step rload=5
+
+
+
+.step rload=6
+
+
+
+.step rload=7
+
+
+
+.step rload=8
+
+
+
+.step rload=9
+tnom = 27
+temp = 27
+method = modified trap
+.step rload=10
+
+
+Measurement: vout_avg
+  step	AVG(v(vin,out))	FROM	TO
+     1	50.1427	0	0.01
+     2	50.4576	0	0.01
+     3	50.5781	0	0.01
+     4	50.6467	0	0.01
+     5	50.6849	0	0.01
+     6	50.7257	0	0.01
+     7	50.743	0	0.01
+     8	50.7612	0	0.01
+     9	50.7753	0	0.01
+    10	50.7898	0	0.01
+
+Measurement: pin
+  step	AVG(-v(vin)*i(v1))	FROM	TO
+     1	5014.27	0	0.01
+     2	2522.88	0	0.01
+     3	1685.94	0	0.01
+     4	1266.17	0	0.01
+     5	1013.7	0	0.01
+     6	845.428	0	0.01
+     7	724.9	0	0.01
+     8	634.515	0	0.01
+     9	564.169	0	0.01
+    10	507.898	0	0.01
+
+Measurement: pout
+  step	AVG(v(vin,out)*i(r1))	FROM	TO
+     1	4957.7	0	0.01
+     2	2504.35	0	0.01
+     3	1675.74	0	0.01
+     4	1259.44	0	0.01
+     5	1008.8	0	0.01
+     6	841.464	0	0.01
+     7	721.709	0	0.01
+     8	631.808	0	0.01
+     9	561.831	0	0.01
+    10	505.815	0	0.01
+
+Measurement: total_efficency
+  step	(pout/pin)*100
+     1	98.8719
+     2	99.2655
+     3	99.3954
+     4	99.4688
+     5	99.5165
+     6	99.5312
+     7	99.5599
+     8	99.5734
+     9	99.5855
+    10	99.59
+
+Total elapsed time: 3.589 seconds.
+
