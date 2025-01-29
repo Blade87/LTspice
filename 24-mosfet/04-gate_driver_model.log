@@ -1,0 +1,16 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\24-mosfet\04-gate_driver_model.asc
+Start Time: Wed Jan 29 22:55:20 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node N008 is floating.
+
+WARNING: Less than two connections to node n008.  This node is used by cgd.
+WARNING: Less than two connections to node n011.  This node is used by r2.
+WARNING: Less than two connections to node n010.  This node is used by rgd_off.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.231 seconds.
+
