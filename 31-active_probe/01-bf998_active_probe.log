@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\s\Documents\GitHub\LTspice\31-active_probe\01-bf998_active_probe.asc
-Start Time: Tue Feb  4 19:07:22 2025
+Start Time: Tue Feb  4 19:30:22 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -27,5 +27,5 @@ Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.157 seconds.
+Total elapsed time: 0.156 seconds.
 
