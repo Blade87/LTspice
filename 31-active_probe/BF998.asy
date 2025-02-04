@@ -1,0 +1,36 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 96 -32 96 -16
+LINE Normal 64 -16 96 -16
+LINE Normal 64 -22 64 53
+LINE Normal 96 64 96 16
+LINE Normal 96 48 64 48
+LINE Normal 82 12 64 16
+LINE Normal 82 20 82 12
+LINE Normal 64 16 82 20
+LINE Normal 96 16 82 16
+LINE Normal 58 16 58 6
+LINE Normal 48 16 58 16
+LINE Normal 58 48 58 38
+LINE Normal 48 48 58 48
+TEXT 88 55 Left 0 S
+TEXT 87 -23 Left 0 D
+TEXT 43 25 Left 0 G2
+TEXT 43 38 Left 0 G1
+WINDOW 0 145 16 Bottom 2
+WINDOW 3 149 22 Top 2
+SYMATTR Prefix X
+SYMATTR Value BF998
+SYMATTR ModelFile C:\Users\s\Documents\GitHub\LTspice\31-active_probe\BF998.lib
+PIN 96 64 LEFT 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN 96 -32 LEFT 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2
+PIN 48 16 BOTTOM 8
+PINATTR PinName 3
+PINATTR SpiceOrder 3
+PIN 48 48 TOP 8
+PINATTR PinName 4
+PINATTR SpiceOrder 4
