@@ -1,31 +1,12 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\s\Documents\GitHub\LTspice\31-active_probe\01-bf998_active_probe.asc
-Start Time: Tue Feb  4 19:30:22 2025
+Start Time: Tue Feb  4 20:20:55 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
 temp = 27
 method = modified trap
 Instance "m:u1:os1": Width narrower than recommended for a level 3 MOSFET.
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-05
-Gmin = 1.6455e-06
-Gmin = 1.76685e-07
-Gmin = 1.89714e-08
-Gmin = 2.03704e-09
-Gmin = 2.18725e-10
-Gmin = 2.34854e-11
-Gmin = 2.52173e-12
-Gmin = 2.70769e-13
-Gmin = 0
-Gmin stepping succeeded in finding the operating point.
-
-Total elapsed time: 0.156 seconds.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.154 seconds.
 
