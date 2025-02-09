@@ -1,0 +1,25 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\32-comparator\01-lm393_window_comparator.asc
+Start Time: Sun Feb  9 10:00:31 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Ignoring empty pin current: Ix(u3:vc+)
+Ignoring empty pin current: Ix(u3:vc-)
+Ignoring empty pin current: Ix(u3:vout+)
+Ignoring empty pin current: Ix(u3:vout-)
+Ignoring empty pin current: Ix(u1:vc+)
+Ignoring empty pin current: Ix(u1:vc-)
+Ignoring empty pin current: Ix(u1:vout+)
+Ignoring empty pin current: Ix(u1:vout-)
+Ignoring empty pin current: Ix(u2:a)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u4:vc+)
+Ignoring empty pin current: Ix(u4:vc-)
+Ignoring empty pin current: Ix(u4:iout+)
+Ignoring empty pin current: Ix(u4:iout-)
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.228 seconds.
+
