@@ -1,0 +1,33 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -128 16 -128 -48
+LINE Normal -64 -16 -128 16
+LINE Normal -128 -48 -64 -16
+LINE Normal -96 0 -96 16
+LINE Normal -96 -32 -96 -48
+LINE Normal -120 -32 -114 -32
+LINE Normal -121 0 -115 0
+LINE Normal -118 -3 -118 3
+LINE Normal -93 -36 -87 -36
+LINE Normal -90 -39 -90 -33
+LINE Normal -93 4 -87 4
+WINDOW 0 -52 -32 Bottom 2
+WINDOW 3 -28 -3 Top 2
+SYMATTR Prefix X
+SYMATTR Value OPA161x
+SYMATTR ModelFile OPA161x.LIB
+PIN -128 0 NONE 8
+PINATTR PinName IN+
+PINATTR SpiceOrder 1
+PIN -128 -32 NONE 8
+PINATTR PinName IN-
+PINATTR SpiceOrder 2
+PIN -96 -48 NONE 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 3
+PIN -96 16 NONE 8
+PINATTR PinName VEE
+PINATTR SpiceOrder 4
+PIN -64 -16 NONE 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 5
