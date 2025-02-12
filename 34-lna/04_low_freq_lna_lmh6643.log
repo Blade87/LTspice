@@ -1,0 +1,266 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\34-lna\04_low_freq_lna_lmh6643.asc
+Start Time: Tue Feb 11 17:55:42 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Instance "m:q1:1": Width narrower than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 1.10559
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 1.04709
+vernier = 0.0208333
+vernier = 0.0104167
+vernier = 0.00520833
+Gmin = 1.0282
+vernier = 0.00694444
+vernier = 0.00347222
+Gmin = 1.01932
+vernier = 0.00462963
+vernier = 0.00231481
+vernier = 0.00308642
+vernier = 0.00154321
+Gmin = 1.0155
+vernier = 0.00205761
+vernier = 0.00102881
+Gmin = 1.0125
+vernier = 0.00137174
+vernier = 0.00068587
+Gmin = 1.01033
+vernier = 0.000914493
+vernier = 0.000457247
+Gmin = 1.00866
+vernier = 0.000609662
+Gmin = 1.00731
+vernier = 0.000812882
+vernier = 0.000406441
+vernier = 0.000541921
+vernier = 0.000406441
+Gmin = 1.00665
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 2.84091%
+Source Step = 4.73485%
+Source Step = 5.35926%
+Source Step = 5.38885%
+Source Step = 5.41844%
+Source Step = 5.44804%
+Source Step = 5.47763%
+vernier = 0.00146484
+Source Step = 5.51018%
+Source Step = 5.55457%
+Source Step = 5.59896%
+Source Step = 5.64335%
+Source Step = 5.68774%
+vernier = 0.00219727
+Source Step = 5.73435%
+Source Step = 5.80093%
+Source Step = 5.86751%
+Source Step = 5.9341%
+Source Step = 6.00068%
+Source Step = 6.06726%
+vernier = 0.0032959
+Source Step = 6.16714%
+Source Step = 6.26702%
+Source Step = 6.36689%
+Source Step = 6.46677%
+Source Step = 6.56664%
+vernier = 0.00494385
+Source Step = 6.71146%
+Source Step = 6.86128%
+Source Step = 7.01109%
+Source Step = 7.1609%
+Source Step = 7.31072%
+vernier = 0.00741577
+Source Step = 7.52046%
+Source Step = 7.74518%
+Source Step = 7.9699%
+Source Step = 8.19462%
+Source Step = 8.41934%
+vernier = 0.0111237
+Source Step = 8.72271%
+Source Step = 9.05979%
+Source Step = 9.39687%
+Source Step = 9.73395%
+Source Step = 10.071%
+vernier = 0.0166855
+Source Step = 10.5092%
+Source Step = 11.0149%
+Source Step = 11.5205%
+Source Step = 12.0261%
+Source Step = 12.5317%
+vernier = 0.0250282
+Source Step = 13.1637%
+Source Step = 13.9222%
+Source Step = 14.3867%
+Source Step = 14.4341%
+Source Step = 14.4815%
+Source Step = 14.5289%
+Source Step = 14.5763%
+Source Step = 14.6237%
+vernier = 0.0023464
+Source Step = 14.6853%
+Source Step = 14.7565%
+Source Step = 14.8276%
+Source Step = 14.8987%
+Source Step = 14.9698%
+vernier = 0.00351959
+Source Step = 15.0586%
+Source Step = 15.1653%
+Source Step = 15.2719%
+Source Step = 15.3786%
+Source Step = 15.4853%
+vernier = 0.00527939
+Source Step = 15.6132%
+Source Step = 15.7732%
+Source Step = 15.9332%
+Source Step = 16.0932%
+Source Step = 16.2532%
+vernier = 0.00791909
+Source Step = 16.4371%
+Source Step = 16.6771%
+Source Step = 16.9171%
+Source Step = 17.1571%
+Source Step = 17.397%
+vernier = 0.0118786
+Source Step = 17.661%
+Source Step = 18.021%
+Source Step = 18.3809%
+Source Step = 18.7409%
+Source Step = 19.1008%
+vernier = 0.0178179
+Source Step = 19.4788%
+Source Step = 20.0187%
+Source Step = 20.5587%
+Source Step = 21.0986%
+Source Step = 21.6385%
+Source Step = 22.1785%
+vernier = 0.0267269
+Source Step = 22.9884%
+Source Step = 23.7983%
+Source Step = 24.6082%
+Source Step = 25.4181%
+Source Step = 26.228%
+vernier = 0.0400904
+Source Step = 27.4024%
+Source Step = 28.6172%
+Source Step = 29.8321%
+Source Step = 31.047%
+Source Step = 32.2618%
+vernier = 0.0601356
+Source Step = 33.9626%
+Source Step = 35.7849%
+Source Step = 37.6072%
+Source Step = 39.4295%
+Source Step = 41.2518%
+vernier = 0.0902034
+Source Step = 43.7119%
+Source Step = 46.4453%
+Source Step = 49.1788%
+Source Step = 51.9122%
+Source Step = 54.6456%
+vernier = 0.135305
+Source Step = 58.1991%
+Source Step = 62.2992%
+Source Step = 66.3994%
+Source Step = 70.4995%
+Source Step = 74.5997%
+vernier = 0.202958
+Source Step = 79.7249%
+Source Step = 84.7988%
+Source Step = 86.3364%
+Source Step = 87.8739%
+Source Step = 89.4115%
+Source Step = 89.4884%
+Source Step = 89.5845%
+Source Step = 89.6806%
+Source Step = 89.7767%
+Source Step = 89.8728%
+Source Step = 89.9689%
+Source Step = 90.065%
+Source Step = 90.1611%
+Source Step = 90.2572%
+Source Step = 90.3533%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 99.003%
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 2.18973 s.
+Ignoring empty pin current: Ix(q1:2)
+Ignoring empty pin current: Ix(q1:1)
+Ignoring empty pin current: Ix(q1:3)
+Ignoring empty pin current: Ix(_s1:1)
+Ignoring empty pin current: Ix(_s1:2)
+Ignoring empty pin current: Ix(_s1:3)
+Ignoring empty pin current: Ix(_s1:4)
+Ignoring empty pin current: Ix(u2:a)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u4:vc+)
+Ignoring empty pin current: Ix(u4:vc-)
+Ignoring empty pin current: Ix(u4:iout+)
+Ignoring empty pin current: Ix(u4:iout-)
+Ignoring empty pin current: Ix(_h1:1)
+Ignoring empty pin current: Ix(_h1:2)
+Ignoring empty pin current: Ix(_h1:3)
+Ignoring empty pin current: Ix(_h1:4)
+Ignoring empty pin current: Ix(_h2:1)
+Ignoring empty pin current: Ix(_h2:2)
+Ignoring empty pin current: Ix(_h2:3)
+Ignoring empty pin current: Ix(_h2:4)
+Ignoring empty pin current: Ix(_u1:1)
+Ignoring empty pin current: Ix(_u1:2)
+Ignoring empty pin current: Ix(_s2:1)
+Ignoring empty pin current: Ix(_s2:2)
+Ignoring empty pin current: Ix(_s2:3)
+Ignoring empty pin current: Ix(_s2:4)
+Ignoring empty pin current: Ix(_u4:a)
+Ignoring empty pin current: Ix(_u4:c)
+Ignoring empty pin current: Ix(q1:2)
+Ignoring empty pin current: Ix(q1:1)
+Ignoring empty pin current: Ix(q1:3)
+Ignoring empty pin current: Ix(_s1:1)
+Ignoring empty pin current: Ix(_s1:2)
+Ignoring empty pin current: Ix(_s1:3)
+Ignoring empty pin current: Ix(_s1:4)
+Ignoring empty pin current: Ix(u2:a)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u4:vc+)
+Ignoring empty pin current: Ix(u4:vc-)
+Ignoring empty pin current: Ix(u4:iout+)
+Ignoring empty pin current: Ix(u4:iout-)
+Ignoring empty pin current: Ix(_h1:1)
+Ignoring empty pin current: Ix(_h1:2)
+Ignoring empty pin current: Ix(_h1:3)
+Ignoring empty pin current: Ix(_h1:4)
+Ignoring empty pin current: Ix(_h2:1)
+Ignoring empty pin current: Ix(_h2:2)
+Ignoring empty pin current: Ix(_h2:3)
+Ignoring empty pin current: Ix(_h2:4)
+Ignoring empty pin current: Ix(_u1:1)
+Ignoring empty pin current: Ix(_u1:2)
+Ignoring empty pin current: Ix(_s2:1)
+Ignoring empty pin current: Ix(_s2:2)
+Ignoring empty pin current: Ix(_s2:3)
+Ignoring empty pin current: Ix(_s2:4)
+Ignoring empty pin current: Ix(_u4:a)
+Ignoring empty pin current: Ix(_u4:c)
+Total elapsed time: 15.451 seconds.
+
