@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\hop\Documents\GitHub\LTspice\33-opamp\04-ad8676_input_voltage_noise.asc
-Start Time: Thu Feb 20 13:21:04 2025
+Start Time: Thu Feb 20 14:42:35 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -111,5 +111,5 @@ Source Step = 97.8373%
 vernier = 0.190058
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.153 seconds.
+Total elapsed time: 0.241 seconds.
 
