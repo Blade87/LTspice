@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
-Circuit: * C:\Users\s\Documents\GitHub\LTspice\34-lna\01_low_freq_lna.asc
-Start Time: Tue Feb 11 15:39:19 2025
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\34-lna\01_low_freq_lna.asc
+Start Time: Thu Feb 20 14:24:01 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -130,5 +130,5 @@ Ignoring empty pin current: Ix(_s2:3)
 Ignoring empty pin current: Ix(_s2:4)
 Ignoring empty pin current: Ix(_u4:a)
 Ignoring empty pin current: Ix(_u4:c)
-Total elapsed time: 4.616 seconds.
+Total elapsed time: 5.506 seconds.
 
