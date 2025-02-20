@@ -1,0 +1,33 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -32 33 -32 -32
+LINE Normal 32 0 -32 33
+LINE Normal -32 -32 32 0
+LINE Normal 0 -16 0 -32
+LINE Normal 0 32 0 17
+LINE Normal -25 16 -19 16
+LINE Normal -22 19 -22 13
+LINE Normal -25 -16 -19 -16
+LINE Normal 4 -21 10 -21
+LINE Normal 7 -18 7 -24
+LINE Normal 5 22 11 22
+WINDOW 0 53 -14 Bottom 2
+WINDOW 3 90 10 Top 2
+SYMATTR Prefix X
+SYMATTR Value AD8001AR
+SYMATTR ModelFile ad8001ar.cir
+PIN -32 16 NONE 8
+PINATTR PinName 3
+PINATTR SpiceOrder 1
+PIN -32 -16 NONE 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2
+PIN 0 -32 NONE 8
+PINATTR PinName 7
+PINATTR SpiceOrder 3
+PIN 0 32 NONE 8
+PINATTR PinName 4
+PINATTR SpiceOrder 4
+PIN 32 0 NONE 8
+PINATTR PinName 6
+PINATTR SpiceOrder 5

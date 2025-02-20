@@ -1,0 +1,18 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\34-lna\06_low_freq_lna_higher_BW.asc
+Start Time: Thu Feb 20 22:38:36 2025
+solver = Normal
+Maximum thread count: 4
+
+
+
+gmin = 1e-11
+WARNING: Less than two connections to node nc_04.  This node is used by l:u11:o.
+Direct Newton iteration for .op point succeeded.
+.step cf=1e-12
+tnom = 27
+temp = 27
+method = modified trap
+.step cf=5e-12
+Total elapsed time: 0.402 seconds.
+
