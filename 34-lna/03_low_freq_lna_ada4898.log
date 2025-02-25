@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\s\Documents\GitHub\LTspice\34-lna\03_low_freq_lna_ada4898.asc
-Start Time: Tue Feb 11 17:56:32 2025
+Start Time: Tue Feb 25 15:00:31 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -15,14 +15,65 @@ vernier = 0.5
 vernier = 0.25
 vernier = 0.125
 vernier = 0.0625
+Gmin = 1.1391
 vernier = 0.03125
-Gmin = 1.02835
 vernier = 0.015625
+Gmin = 1.08297
 vernier = 0.0078125
-vernier = 0.00390625
-vernier = 0.00195312
-vernier = 0.000976562
-vernier = 0.000488281
+Gmin = 1.05998
+vernier = 0.0104167
+vernier = 0.00520833
+vernier = 0.00694444
+vernier = 0.00347222
+Gmin = 1.05219
+vernier = 0.00462963
+vernier = 0.00231481
+Gmin = 1.04492
+vernier = 0.00308642
+vernier = 0.00154321
+Gmin = 1.03989
+vernier = 0.00205761
+vernier = 0.00274348
+Gmin = 1.03478
+vernier = 0.00137174
+vernier = 0.00182899
+vernier = 0.000914493
+Gmin = 1.03324
+vernier = 0.00121932
+vernier = 0.00162576
+Gmin = 1.03023
+vernier = 0.000812882
+vernier = 0.00108384
+Gmin = 1.02848
+vernier = 0.000541921
+vernier = 0.000722562
+Gmin = 1.02723
+vernier = 0.000963415
+vernier = 0.000481708
+Gmin = 1.02606
+vernier = 0.000642277
+vernier = 0.000856369
+vernier = 0.000428184
+Gmin = 1.02485
+vernier = 0.000570912
+vernier = 0.000761216
+Gmin = 1.02345
+vernier = 0.000570912
+vernier = 0.000761216
+vernier = 0.000570912
+vernier = 0.000428184
+Gmin = 1.02291
+vernier = 0.000570912
+vernier = 0.000428184
+Gmin = 1.02204
+vernier = 0.000570912
+vernier = 0.000428184
+vernier = 0.000570912
+Gmin = 1.02113
+vernier = 0.000428184
+vernier = 0.000570912
+vernier = 0.000428184
+Gmin = 0
 Gmin = 0
 Gmin stepping failed
 
@@ -50,6 +101,18 @@ Ignoring empty pin current: Ix(_s1:1)
 Ignoring empty pin current: Ix(_s1:2)
 Ignoring empty pin current: Ix(_s1:3)
 Ignoring empty pin current: Ix(_s1:4)
+Ignoring empty pin current: Ix(u5:vc+)
+Ignoring empty pin current: Ix(u5:vc-)
+Ignoring empty pin current: Ix(u5:vout+)
+Ignoring empty pin current: Ix(u5:vout-)
+Ignoring empty pin current: Ix(u3:vc+)
+Ignoring empty pin current: Ix(u3:vc-)
+Ignoring empty pin current: Ix(u3:vout+)
+Ignoring empty pin current: Ix(u3:vout-)
+Ignoring empty pin current: Ix(u1:vc+)
+Ignoring empty pin current: Ix(u1:vc-)
+Ignoring empty pin current: Ix(u1:vout+)
+Ignoring empty pin current: Ix(u1:vout-)
 Ignoring empty pin current: Ix(u2:a)
 Ignoring empty pin current: Ix(u2:c)
 Ignoring empty pin current: Ix(u4:vc+)
@@ -79,6 +142,18 @@ Ignoring empty pin current: Ix(_s1:1)
 Ignoring empty pin current: Ix(_s1:2)
 Ignoring empty pin current: Ix(_s1:3)
 Ignoring empty pin current: Ix(_s1:4)
+Ignoring empty pin current: Ix(u5:vc+)
+Ignoring empty pin current: Ix(u5:vc-)
+Ignoring empty pin current: Ix(u5:vout+)
+Ignoring empty pin current: Ix(u5:vout-)
+Ignoring empty pin current: Ix(u3:vc+)
+Ignoring empty pin current: Ix(u3:vc-)
+Ignoring empty pin current: Ix(u3:vout+)
+Ignoring empty pin current: Ix(u3:vout-)
+Ignoring empty pin current: Ix(u1:vc+)
+Ignoring empty pin current: Ix(u1:vc-)
+Ignoring empty pin current: Ix(u1:vout+)
+Ignoring empty pin current: Ix(u1:vout-)
 Ignoring empty pin current: Ix(u2:a)
 Ignoring empty pin current: Ix(u2:c)
 Ignoring empty pin current: Ix(u4:vc+)
@@ -101,5 +176,5 @@ Ignoring empty pin current: Ix(_s2:3)
 Ignoring empty pin current: Ix(_s2:4)
 Ignoring empty pin current: Ix(_u4:a)
 Ignoring empty pin current: Ix(_u4:c)
-Total elapsed time: 3.584 seconds.
+Total elapsed time: 20.252 seconds.
 
