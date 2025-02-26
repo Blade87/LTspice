@@ -1,0 +1,12 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\35-analog_switch\17-analog_switch.asc
+Start Time: Wed Feb 26 09:48:04 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+c1: Increased Cpar to 4.7e-10
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 6.707 seconds.
+
