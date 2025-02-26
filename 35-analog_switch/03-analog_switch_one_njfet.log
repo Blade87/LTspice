@@ -1,0 +1,23 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\35-analog_switch\02-analog_switch_jfet.asc
+Start Time: Wed Feb 26 10:56:55 2025
+solver = Normal
+Maximum thread count: 4
+
+
+
+c1: Increased Cpar to 4.7e-10
+Direct Newton iteration for .op point succeeded.
+.step frq=10
+
+
+
+.step frq=100
+
+
+
+.step frq=1000
+
+
+
+.step frq=10000
