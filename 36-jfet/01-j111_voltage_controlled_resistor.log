@@ -1,0 +1,52 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\36-jfet\01-j111_voltage_controlled_resistor.asc
+Start Time: Thu Feb 27 12:36:30 2025
+solver = Normal
+Maximum thread count: 4
+
+
+
+Direct Newton iteration for .op point succeeded.
+.step vc=-5
+
+
+
+.step vc=-4
+
+
+
+.step vc=-3
+
+
+
+.step vc=-2
+
+
+
+.step vc=-1
+
+
+
+.step vc=0
+
+
+
+.step vc=1
+
+
+
+.step vc=2
+
+
+
+.step vc=3
+
+
+
+.step vc=4
+tnom = 27
+temp = 27
+method = modified trap
+.step vc=5
+Total elapsed time: 0.548 seconds.
+
