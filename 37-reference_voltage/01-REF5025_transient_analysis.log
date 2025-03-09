@@ -1,0 +1,68 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\37-reference_voltage\01-REF5025_transient_analysis.asc
+Start Time: Sun Mar  9 20:01:11 2025
+solver = Normal
+Maximum thread count: 4
+
+
+
+Instance "m:u1:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:18": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:19": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:20": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:21": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:25": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:23": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:24": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:26": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:27": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:29": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+Gmin = 2.05688e-06
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step temp=0°C
+
+
+
+.step temp=25°C
+tnom = 27
+temp = 50
+method = modified trap
+.step temp=50°C
+
+
+Measurement: out_per_temp
+  step	v(out_pin)	at
+     1	2.50121	0.0005
+     2	2.50124	0.0005
+     3	2.50122	0.0005
+
+Total elapsed time: 3.301 seconds.
+
