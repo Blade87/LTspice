@@ -1,0 +1,1265 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\37-reference_voltage\03-REF5025_noise_voltage_divider.asc
+Start Time: Sun Mar  9 20:58:46 2025
+solver = Normal
+Maximum thread count: 4
+
+
+
+c1: Increased Cpar to 1e-12
+Instance "m:u1:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:18": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:19": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:20": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:21": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:25": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:23": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:24": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:26": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:27": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:29": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 2.07126
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 2.11016
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+Gmin = 2.11016
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 49.2424%
+Source Step = 56.8182%
+Source Step = 64.3939%
+Source Step = 71.9697%
+Source Step = 79.5455%
+vernier = 0.375
+Source Step = 88.6364%
+vernier = 0.09375
+Source Step = 90.3409%
+Source Step = 93.1818%
+Source Step = 96.0227%
+Source Step = 98.8636%
+Source stepping succeeded in finding the operating point.
+
+.step temp=0°C x=1
+
+
+
+.step temp=10°C x=1
+
+
+
+.step temp=20°C x=1
+
+
+
+.step temp=30°C x=1
+
+
+
+.step temp=40°C x=1
+
+
+
+.step temp=50°C x=1
+
+
+
+.step temp=0°C x=2
+
+
+
+.step temp=10°C x=2
+
+
+
+.step temp=20°C x=2
+
+
+
+.step temp=30°C x=2
+
+
+
+.step temp=40°C x=2
+
+
+
+.step temp=50°C x=2
+
+
+
+.step temp=0°C x=3
+
+
+
+.step temp=10°C x=3
+
+
+
+.step temp=20°C x=3
+
+
+
+.step temp=30°C x=3
+
+
+
+.step temp=40°C x=3
+
+
+
+.step temp=50°C x=3
+
+
+
+.step temp=0°C x=4
+
+
+
+.step temp=10°C x=4
+
+
+
+.step temp=20°C x=4
+
+
+
+.step temp=30°C x=4
+
+
+
+.step temp=40°C x=4
+
+
+
+.step temp=50°C x=4
+
+
+
+.step temp=0°C x=5
+
+
+
+.step temp=10°C x=5
+
+
+
+.step temp=20°C x=5
+
+
+
+.step temp=30°C x=5
+
+
+
+.step temp=40°C x=5
+
+
+
+.step temp=50°C x=5
+
+
+
+.step temp=0°C x=6
+
+
+
+.step temp=10°C x=6
+
+
+
+.step temp=20°C x=6
+
+
+
+.step temp=30°C x=6
+
+
+
+.step temp=40°C x=6
+
+
+
+.step temp=50°C x=6
+
+
+
+.step temp=0°C x=7
+
+
+
+.step temp=10°C x=7
+
+
+
+.step temp=20°C x=7
+
+
+
+.step temp=30°C x=7
+
+
+
+.step temp=40°C x=7
+
+
+
+.step temp=50°C x=7
+
+
+
+.step temp=0°C x=8
+
+
+
+.step temp=10°C x=8
+
+
+
+.step temp=20°C x=8
+
+
+
+.step temp=30°C x=8
+
+
+
+.step temp=40°C x=8
+
+
+
+.step temp=50°C x=8
+
+
+
+.step temp=0°C x=9
+
+
+
+.step temp=10°C x=9
+
+
+
+.step temp=20°C x=9
+
+
+
+.step temp=30°C x=9
+
+
+
+.step temp=40°C x=9
+
+
+
+.step temp=50°C x=9
+
+
+
+.step temp=0°C x=10
+
+
+
+.step temp=10°C x=10
+
+
+
+.step temp=20°C x=10
+
+
+
+.step temp=30°C x=10
+
+
+
+.step temp=40°C x=10
+
+
+
+.step temp=50°C x=10
+
+
+
+.step temp=0°C x=11
+
+
+
+.step temp=10°C x=11
+
+
+
+.step temp=20°C x=11
+
+
+
+.step temp=30°C x=11
+
+
+
+.step temp=40°C x=11
+
+
+
+.step temp=50°C x=11
+
+
+
+.step temp=0°C x=12
+
+
+
+.step temp=10°C x=12
+
+
+
+.step temp=20°C x=12
+
+
+
+.step temp=30°C x=12
+
+
+
+.step temp=40°C x=12
+
+
+
+.step temp=50°C x=12
+
+
+
+.step temp=0°C x=13
+
+
+
+.step temp=10°C x=13
+
+
+
+.step temp=20°C x=13
+
+
+
+.step temp=30°C x=13
+
+
+
+.step temp=40°C x=13
+
+
+
+.step temp=50°C x=13
+
+
+
+.step temp=0°C x=14
+
+
+
+.step temp=10°C x=14
+
+
+
+.step temp=20°C x=14
+
+
+
+.step temp=30°C x=14
+
+
+
+.step temp=40°C x=14
+
+
+
+.step temp=50°C x=14
+
+
+
+.step temp=0°C x=15
+
+
+
+.step temp=10°C x=15
+
+
+
+.step temp=20°C x=15
+
+
+
+.step temp=30°C x=15
+
+
+
+.step temp=40°C x=15
+
+
+
+.step temp=50°C x=15
+
+
+
+.step temp=0°C x=16
+
+
+
+.step temp=10°C x=16
+
+
+
+.step temp=20°C x=16
+
+
+
+.step temp=30°C x=16
+
+
+
+.step temp=40°C x=16
+
+
+
+.step temp=50°C x=16
+
+
+
+.step temp=0°C x=17
+
+
+
+.step temp=10°C x=17
+
+
+
+.step temp=20°C x=17
+
+
+
+.step temp=30°C x=17
+
+
+
+.step temp=40°C x=17
+
+
+
+.step temp=50°C x=17
+
+
+
+.step temp=0°C x=18
+
+
+
+.step temp=10°C x=18
+
+
+
+.step temp=20°C x=18
+
+
+
+.step temp=30°C x=18
+
+
+
+.step temp=40°C x=18
+
+
+
+.step temp=50°C x=18
+
+
+
+.step temp=0°C x=19
+
+
+
+.step temp=10°C x=19
+
+
+
+.step temp=20°C x=19
+
+
+
+.step temp=30°C x=19
+
+
+
+.step temp=40°C x=19
+
+
+
+.step temp=50°C x=19
+
+
+
+.step temp=0°C x=20
+
+
+
+.step temp=10°C x=20
+
+
+
+.step temp=20°C x=20
+
+
+
+.step temp=30°C x=20
+
+
+
+.step temp=40°C x=20
+
+
+
+.step temp=50°C x=20
+
+
+
+.step temp=0°C x=21
+
+
+
+.step temp=10°C x=21
+
+
+
+.step temp=20°C x=21
+
+
+
+.step temp=30°C x=21
+
+
+
+.step temp=40°C x=21
+
+
+
+.step temp=50°C x=21
+
+
+
+.step temp=0°C x=22
+
+
+
+.step temp=10°C x=22
+
+
+
+.step temp=20°C x=22
+
+
+
+.step temp=30°C x=22
+
+
+
+.step temp=40°C x=22
+
+
+
+.step temp=50°C x=22
+
+
+
+.step temp=0°C x=23
+
+
+
+.step temp=10°C x=23
+
+
+
+.step temp=20°C x=23
+
+
+
+.step temp=30°C x=23
+
+
+
+.step temp=40°C x=23
+
+
+
+.step temp=50°C x=23
+
+
+
+.step temp=0°C x=24
+
+
+
+.step temp=10°C x=24
+
+
+
+.step temp=20°C x=24
+
+
+
+.step temp=30°C x=24
+
+
+
+.step temp=40°C x=24
+
+
+
+.step temp=50°C x=24
+
+
+
+.step temp=0°C x=25
+
+
+
+.step temp=10°C x=25
+
+
+
+.step temp=20°C x=25
+
+
+
+.step temp=30°C x=25
+
+
+
+.step temp=40°C x=25
+
+
+
+.step temp=50°C x=25
+
+
+
+.step temp=0°C x=26
+
+
+
+.step temp=10°C x=26
+
+
+
+.step temp=20°C x=26
+
+
+
+.step temp=30°C x=26
+
+
+
+.step temp=40°C x=26
+
+
+
+.step temp=50°C x=26
+
+
+
+.step temp=0°C x=27
+
+
+
+.step temp=10°C x=27
+
+
+
+.step temp=20°C x=27
+
+
+
+.step temp=30°C x=27
+
+
+
+.step temp=40°C x=27
+
+
+
+.step temp=50°C x=27
+
+
+
+.step temp=0°C x=28
+
+
+
+.step temp=10°C x=28
+
+
+
+.step temp=20°C x=28
+
+
+
+.step temp=30°C x=28
+
+
+
+.step temp=40°C x=28
+
+
+
+.step temp=50°C x=28
+
+
+
+.step temp=0°C x=29
+
+
+
+.step temp=10°C x=29
+
+
+
+.step temp=20°C x=29
+
+
+
+.step temp=30°C x=29
+
+
+
+.step temp=40°C x=29
+
+
+
+.step temp=50°C x=29
+
+
+
+.step temp=0°C x=30
+
+
+
+.step temp=10°C x=30
+
+
+
+.step temp=20°C x=30
+
+
+
+.step temp=30°C x=30
+
+
+
+.step temp=40°C x=30
+
+
+
+.step temp=50°C x=30
+
+
+
+.step temp=0°C x=31
+
+
+
+.step temp=10°C x=31
+
+
+
+.step temp=20°C x=31
+
+
+
+.step temp=30°C x=31
+
+
+
+.step temp=40°C x=31
+
+
+
+.step temp=50°C x=31
+
+
+
+.step temp=0°C x=32
+
+
+
+.step temp=10°C x=32
+
+
+
+.step temp=20°C x=32
+
+
+
+.step temp=30°C x=32
+
+
+
+.step temp=40°C x=32
+
+
+
+.step temp=50°C x=32
+
+
+
+.step temp=0°C x=33
+
+
+
+.step temp=10°C x=33
+
+
+
+.step temp=20°C x=33
+
+
+
+.step temp=30°C x=33
+
+
+
+.step temp=40°C x=33
+
+
+
+.step temp=50°C x=33
+
+
+
+.step temp=0°C x=34
+
+
+
+.step temp=10°C x=34
+
+
+
+.step temp=20°C x=34
+
+
+
+.step temp=30°C x=34
+
+
+
+.step temp=40°C x=34
+
+
+
+.step temp=50°C x=34
+
+
+
+.step temp=0°C x=35
+
+
+
+.step temp=10°C x=35
+
+
+
+.step temp=20°C x=35
+
+
+
+.step temp=30°C x=35
+
+
+
+.step temp=40°C x=35
+
+
+
+.step temp=50°C x=35
+
+
+
+.step temp=0°C x=36
+
+
+
+.step temp=10°C x=36
+
+
+
+.step temp=20°C x=36
+
+
+
+.step temp=30°C x=36
+
+
+
+.step temp=40°C x=36
+
+
+
+.step temp=50°C x=36
+
+
+
+.step temp=0°C x=37
+
+
+
+.step temp=10°C x=37
+
+
+
+.step temp=20°C x=37
+
+
+
+.step temp=30°C x=37
+
+
+
+.step temp=40°C x=37
+
+
+
+.step temp=50°C x=37
+
+
+
+.step temp=0°C x=38
+
+
+
+.step temp=10°C x=38
+
+
+
+.step temp=20°C x=38
+
+
+
+.step temp=30°C x=38
+
+
+
+.step temp=40°C x=38
+
+
+
+.step temp=50°C x=38
+
+
+
+.step temp=0°C x=39
+
+
+
+.step temp=10°C x=39
+
+
+
+.step temp=20°C x=39
+
+
+
+.step temp=30°C x=39
+
+
+
+.step temp=40°C x=39
+
+
+
+.step temp=50°C x=39
+
+
+
+.step temp=0°C x=40
+
+
+
+.step temp=10°C x=40
+
+
+
+.step temp=20°C x=40
+
+
+
+.step temp=30°C x=40
+
+
+
+.step temp=40°C x=40
+
+
+
+.step temp=50°C x=40
+
+
+
+.step temp=0°C x=41
+
+
+
+.step temp=10°C x=41
+
+
+
+.step temp=20°C x=41
+
+
+
+.step temp=30°C x=41
+
+
+
+.step temp=40°C x=41
+
+
+
+.step temp=50°C x=41
+
+
+
+.step temp=0°C x=42
+
+
+
+.step temp=10°C x=42
+
+
+
+.step temp=20°C x=42
+
+
+
+.step temp=30°C x=42
+
+
+
+.step temp=40°C x=42
+
+
+
+.step temp=50°C x=42
+
+
+
+.step temp=0°C x=43
+
+
+
+.step temp=10°C x=43
+
+
+
+.step temp=20°C x=43
+
+
+
+.step temp=30°C x=43
+
+
+
+.step temp=40°C x=43
+
+
+
+.step temp=50°C x=43
+
+
+
+.step temp=0°C x=44
+
+
+
+.step temp=10°C x=44
+
+
+
+.step temp=20°C x=44
+
+
+
+.step temp=30°C x=44
+
+
+
+.step temp=40°C x=44
+
+
+
+.step temp=50°C x=44
+
+
+
+.step temp=0°C x=45
+
+
+
+.step temp=10°C x=45
+
+
+
+.step temp=20°C x=45
+
+
+
+.step temp=30°C x=45
+
+
+
+.step temp=40°C x=45
+
+
+
+.step temp=50°C x=45
+
+
+
+.step temp=0°C x=46
+
+
+
+.step temp=10°C x=46
+
+
+
+.step temp=20°C x=46
+
+
+
+.step temp=30°C x=46
+
+
+
+.step temp=40°C x=46
+
+
+
+.step temp=50°C x=46
+
+
+
+.step temp=0°C x=47
+
+
+
+.step temp=10°C x=47
+
+
+
+.step temp=20°C x=47
+
+
+
+.step temp=30°C x=47
+
+
+
+.step temp=40°C x=47
+
+
+
+.step temp=50°C x=47
+
+
+
+.step temp=0°C x=48
+
+
+
+.step temp=10°C x=48
+
+
+
+.step temp=20°C x=48
+
+
+
+.step temp=30°C x=48
+
+
+
+.step temp=40°C x=48
+
+
+
+.step temp=50°C x=48
+
+
+
+.step temp=0°C x=49
+
+
+
+.step temp=10°C x=49
+
+
+
+.step temp=20°C x=49
+
+
+
+.step temp=30°C x=49
+
+
+
+.step temp=40°C x=49
+
+
+
+.step temp=50°C x=49
+
+
+
+.step temp=0°C x=50
+
+
+
+.step temp=10°C x=50
+
+
+
+.step temp=20°C x=50
+
+
+
+.step temp=30°C x=50
+
+
+
+.step temp=40°C x=50
+tnom = 27
+temp = 50
+method = modified trap
+.step temp=50°C x=50
+
+
+Measurement "vout_avg" FAIL'ed
+
+Total elapsed time: 123.432 seconds.
+
