@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\hop\Documents\GitHub\LTspice\33-opamp\05-lm358_high_current_output.asc
-Start Time: Mon Mar 31 17:54:23 2025
+Start Time: Mon Mar 31 18:08:59 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -25,14 +25,7 @@ vernier = 0.000976562
 Gmin = 46.5459
 vernier = 0.000488281
 Gmin = 0
-Gmin stepping failed
-
-Starting source stepping with srcstepmethod=0
-Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
-Source stepping succeeded in finding the operating point.
+Gmin stepping succeeded in finding the operating point.
 
 Ignoring empty pin current: Ix(u1:vc+)
 Ignoring empty pin current: Ix(u1:vc-)
@@ -42,5 +35,5 @@ Ignoring empty pin current: Ix(u1:vc+)
 Ignoring empty pin current: Ix(u1:vc-)
 Ignoring empty pin current: Ix(u1:vout+)
 Ignoring empty pin current: Ix(u1:vout-)
-Total elapsed time: 0.342 seconds.
+Total elapsed time: 0.308 seconds.
 
