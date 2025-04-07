@@ -1,11 +1,11 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\hop\Documents\GitHub\LTspice\26-buck\02-buck_output_filter_calculation.asc
-Start Time: Mon Apr  7 17:43:49 2025
+Start Time: Mon Apr  7 20:59:03 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
 temp = 27
 method = modified trap
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.212 seconds.
+Total elapsed time: 0.257 seconds.
 
