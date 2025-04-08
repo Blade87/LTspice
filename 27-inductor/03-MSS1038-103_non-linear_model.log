@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
-Circuit: * C:\Users\s\Documents\GitHub\LTspice\27-inductor\03-MSS1038-103_non-linear_model.asc
-Start Time: Sat Jan 18 12:38:55 2025
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\27-inductor\03-MSS1038-103_non-linear_model.asc
+Start Time: Tue Apr  8 13:52:09 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -10,5 +10,5 @@ rvar2: Trouble evaluating Laplacian at DC.
 rvar1: Trouble evaluating Laplacian at DC.
 lvar: Trouble evaluating Laplacian at DC.
 .OP point found by inspection.
-Total elapsed time: 0.060 seconds.
+Total elapsed time: 0.145 seconds.
 

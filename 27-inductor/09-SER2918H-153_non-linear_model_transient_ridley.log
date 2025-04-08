@@ -1,0 +1,11 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\27-inductor\09-SER2918H-153_non-linear_model_transient_ridley.asc
+Start Time: Tue Apr  8 23:14:42 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 7.016 seconds.
+
