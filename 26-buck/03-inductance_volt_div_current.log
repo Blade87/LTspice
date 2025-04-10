@@ -1,0 +1,14 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\26-buck\03-inductance_volt_div_current.asc
+Start Time: Thu Apr 10 14:47:23 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Unknown node in .ic card: "cout" -- ignoring
+WARNING: Less than two connections to node inductance.  This node is used by b1.
+WARNING: Less than two connections to node series_resistance.  This node is used by b2.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 1.741 seconds.
+
