@@ -1,0 +1,40 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\26-buck\04-inductance_MSS1038-103.asc
+Start Time: Thu Apr 10 15:49:55 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Unknown node in .ic card: "cout" -- ignoring
+WARNING: Less than two connections to node inductance.  This node is used by b1.
+WARNING: Less than two connections to node series_resistance.  This node is used by b2.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 1.71943e-06 to 1.71945e-06
+Heightened Def Con from 1.71945e-06 to 1.7197e-06
+Heightened Def Con from 1.36952e-05 to 1.36972e-05
+Heightened Def Con from 4.96623e-05 to 4.96623e-05
+Heightened Def Con from 4.96623e-05 to 4.96653e-05
+Heightened Def Con from 8.56713e-05 to 8.56743e-05
+Heightened Def Con from 8.83501e-05 to 8.83512e-05
+Heightened Def Con from 0.000105674 to 0.000105676
+Heightened Def Con from 0.000109674 to 0.000109677
+Heightened Def Con from 0.000121674 to 0.000121677
+Heightened Def Con from 0.000136347 to 0.000136349
+Heightened Def Con from 0.000149672 to 0.000149675
+Heightened Def Con from 0.000156347 to 0.000156347
+Heightened Def Con from 0.000204351 to 0.000204351
+Heightened Def Con from 0.000204351 to 0.000204351
+Heightened Def Con from 0.000229672 to 0.000229674
+Heightened Def Con from 0.000244348 to 0.000244348
+Heightened Def Con from 0.000249675 to 0.000249678
+Heightened Def Con from 0.000304347 to 0.000304349
+Heightened Def Con from 0.000324347 to 0.000324349
+Heightened Def Con from 0.000337674 to 0.000337677
+Heightened Def Con from 0.000368346 to 0.000368348
+Heightened Def Con from 0.000373673 to 0.000373676
+Heightened Def Con from 0.000381674 to 0.000381677
+Heightened Def Con from 0.000388347 to 0.000388349
+Heightened Def Con from 0.000388349 to 0.00038835
+Total elapsed time: 2.084 seconds.
+
