@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
-Circuit: * C:\Users\hop\Documents\GitHub\LTspice\26-buck\05-ferrite_core_loss_max_temperature.asc
-Start Time: Fri Apr 11 23:08:53 2025
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\26-buck\05-ferrite_core_loss_max_temperature.asc
+Start Time: Sun Apr 13 22:44:26 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -8,5 +8,8 @@ temp = 27
 method = modified trap
 WARNING: Less than two connections to node avg_trise.  This node is used by b4.
 .OP point found by inspection.
-Total elapsed time: 0.520 seconds.
+
+sweep_val: MAX(v(p)/2.99)=0.219261 FROM 0 TO 5e-05
+
+Total elapsed time: 0.706 seconds.
 
