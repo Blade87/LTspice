@@ -1,11 +1,11 @@
 LTspice 24.0.9 for Windows
-Circuit: * C:\Users\s\Documents\GitHub\LTspice\26-buck\07-ferrite_core_loss_max_temp_non-sinsoidal.asc
-Start Time: Wed Apr 16 17:25:46 2025
+Circuit: * C:\Users\hop\Documents\GitHub\LTspice\26-buck\07-ferrite_core_loss_max_temp_non-sinsoidal.asc
+Start Time: Mon Apr 21 23:52:45 2025
 solver = Normal
 Maximum thread count: 4
 tnom = 27
 temp = 27
 method = modified trap
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.321 seconds.
+Total elapsed time: 15.613 seconds.
 
