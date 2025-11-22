@@ -1,0 +1,14 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\10-opamp_basics\18-subtract_amplifier.asc
+Start Time: Sat Nov 22 14:50:36 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node nc_01.  This node is used by c2.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.181 seconds.
+
