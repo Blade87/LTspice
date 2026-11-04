@@ -1,0 +1,19 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\s\Documents\GitHub\LTspice\27-inductor\12-ai_non-linear_model_dwell.asc
+Start Time: Wed Nov  4 17:54:03 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+.OP point found by inspection.
+
+
+Measurement "r_10k" FAIL'ed
+
+Measurement "r_100k" FAIL'ed
+
+Measurement "r_1meg" FAIL'ed
+
+Total elapsed time: 0.045 seconds.
+

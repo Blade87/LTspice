@@ -1,0 +1,55 @@
+* Five-section Foster RL winding-loss model
+* LTspice-compatible AC testbench
+*
+* Model valid only as a fitted resistance approximation over 10 kHz to 1 MHz.
+* LMAIN is NOT calculated by Dowell's equation. Replace it with the measured
+* or independently calculated main/magnetizing inductance of your inductor.
+*
+* To view winding resistance:
+*   Run AC analysis.
+*   Plot: real(-V(in)/I(VTEST))
+* To view total impedance:
+*   Plot: -V(in)/I(VTEST)
+*
+* All values below are from the five-section fit previously calculated.
+
+.param Rdc=89.527920m
+.param LMAIN=100u
+
+VTEST in 0 AC 1
+
+* DC winding resistance
+RDC in n1 {Rdc}
+
+* Foster section 1: Rac1 parallel Lac1
+RAC1 n1 n2 5.90884242
+LAC1 n1 n2 6.77027473u
+
+* Foster section 2: Rac2 parallel Lac2
+RAC2 n2 n3 178.19917m
+LAC2 n2 n3 51.0762834n
+
+* Foster section 3: Rac3 parallel Lac3
+RAC3 n3 n4 652.83783m
+LAC3 n3 n4 90.9026841n
+
+* Foster section 4: Rac4 parallel Lac4
+RAC4 n4 n5 5.41342191
+LAC4 n4 n5 676.328986n
+
+* Foster section 5: Rac5 parallel Lac5
+RAC5 n5 n6 13.5526732
+LAC5 n5 n6 493.479395n
+
+* Main inductor (separate from the winding-loss Foster network)
+LMAIN1 n6 0 {LMAIN}
+
+;.ac dec 200 10k 1Meg
+
+* Optional measurements at selected frequencies.
+* LTspice supports these expressions in AC analysis.
+.meas AC R_10k  FIND real(-V(in)/I(VTEST)) AT=10k
+.meas AC R_100k FIND real(-V(in)/I(VTEST)) AT=100k
+.meas AC R_1Meg FIND real(-V(in)/I(VTEST)) AT=1Meg
+
+.end
